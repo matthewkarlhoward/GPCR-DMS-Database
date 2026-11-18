@@ -1,10 +1,10 @@
 # GPCR-DMS Database
 
-GPCR mutational scanning data, by study.
+An atlas of all existing GPCR mutational scanning data (that I can find). I will try to update as more data becomes available. Feel free to email matthewkarlhoward@gmail.com if you notice anything missing or incorrect.
 
-Archived on Zenodo: each GitHub release of this repository gets its own DOI. To cite it, use the "Cite this repository" button on GitHub (from `CITATION.cff`) or the DOI on the Zenodo record, and always cite the original paper for each dataset you use.
+Always cite the original paper for each dataset you use. If you find this resource useful, please acknowledge it. This repo is archived on Zenodo and each GitHub release of this repository gets its own DOI.
 
-The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Nothing is merged across studies. Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors. Built 2026-11-18.
+The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors.
 
 ![GPCR variant measurements per study, cumulative over time, and receptor scans per year](figures/gpcr_dms_overview.png)
 
@@ -69,7 +69,7 @@ The study WT residues agree with GPCRdb at every position except:
 
 ## Citation and licensing
 
-**Every dataset here was published by someone else, and each one keeps its own license.** There is no
+Enclosed datasets have slightly different licensing, so make sure to check that. There is no
 single license over the collection. Cite the paper for whichever data you use.
 
 - `LICENSE.md` — the per-study license table, what each status means, and the conditions on the three
@@ -84,8 +84,7 @@ single license over the collection. Cite the paper for whichever data you use.
 Of the 23 folders: 19 carry a license that plainly permits redistribution (CC0, CC BY 4.0, MIT, or
 NCBI GEO). Three are non-commercial — `RHO_Chen2026` (CC BY-NC-ND 4.0) and `AGTR1_Boora2026` /
 `PTGFR_Boora2026` (CC BY-NC 4.0). One, `AGTR1_Cao2023`, is published supplementary data from a
-subscription article with no stated reuse license, included with full citation; `LICENSE.md` says what
-that means for reuse.
+subscription article with no stated reuse license, included with full citation.
 
 Generic residue numbers come from GPCRdb (CC BY 4.0). Cite Pándy-Szekeres et al. 2023 *NAR* and
 Isberg et al. 2015 *TiPS*, and include: "We acknowledge the use of the GPCRdb database
