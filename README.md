@@ -6,6 +6,10 @@ Archived on Zenodo: each GitHub release of this repository gets its own DOI. To 
 
 The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Nothing is merged across studies. Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors. Built 2026-11-18.
 
+![GPCR variant measurements per study, cumulative over time, and receptor scans per year](figures/gpcr_dms_overview.png)
+
+**Published GPCR variant measurements: about 914k in total, of which 510k (56%) are in MaveDB.** Left: variant × condition measurements per study (one variant scored under one condition, e.g. one ligand or dose). Top right: cumulative measurements by year published. Bottom right: receptor scans per year. Color shows the scan type; solid = in MaveDB, hatched = not in MaveDB. \* Count taken from the paper text: these studies released no per-variant score file, so they are not in this database (for Penn 2020, the released per-variant values are McKee 2021 Table S1). Counts: [`figures/gpcr_dms_measurements.csv`](figures/gpcr_dms_measurements.csv); script: [`code/plot_overview.py`](code/plot_overview.py); also as [SVG](figures/gpcr_dms_overview.svg) and [PDF](figures/gpcr_dms_overview.pdf).
+
 ## In each study folder
 - `source/`: the original files exactly as published (GitHub repos pinned to a commit; MaveDB, Zenodo, GEO, journal and bioRxiv supplements).
 - `tables/`: every per-variant table from those files as CSV, with all of the authors' columns. That includes replicate scores, standard errors, statistics, counts, curve fits and classifications. Five key columns go at the front:

@@ -1,0 +1,28 @@
+label,study_ids,year,category,in_mavedb,n_receptors,measurements,from_paper_text,note
+β1AR  Serrano-Vega 2008,,2008,ala,False,1,318,True,not in this database: count from paper text (no per-variant score file released)
+A2AR  Magnani 2008,,2008,ala,False,1,630,True,not in this database: count from paper text (no per-variant score file released)
+NTS1  Shibata 2009,,2009,ala,False,1,427,True,not in this database: count from paper text (no per-variant score file released)
+ETB  Okuta 2016,,2016,ala,False,1,297,True,not in this database: count from paper text (no per-variant score file released)
+CCR5  Heredia 2018,CCR5_Heredia2018,2018,dms,True,1,20866,False,
+CXCR4  Heredia 2018,CXCR4_Heredia2018,2018,dms,True,1,20988,False,
+Rho  Wan 2019,RHO_Wan2019,2019,panel,True,1,210,False,
+T1R2  Park 2019,TAS1R2_Park2019,2019,dms,False,1,32600,False,
+Rho  Penn 2020,RHO_Penn2020,2020,dms,False,1,1616,True,count from paper text; the released per-variant values are McKee 2021 Table S1
+β2AR  Jones 2020,ADRB2_Jones2020,2020,dms,False,1,31212,False,
+Rho  McKee 2021,RHO_McKee2021,2021,dms,False,1,700,False,
+Rho  Roushar 2022,RHO_Roushar2022,2022,panel,False,1,246,False,
+CXCR4 + CCR5  Gill 2023,CXCR4_Gill2023;CCR5_Gill2023,2023,dms,False,2,27440,False,
+AT1R  Cao 2023,AGTR1_Cao2023,2023,ala,False,1,1056,False,
+β2AR  Heydenreich 2023,ADRB2_Heydenreich2023,2023,ala,False,1,824,False,
+Rho  Scott 2024,,2024,panel,False,1,1200,True,"not in this database: lower bound from abstract (>1,200 random mutants)"
+GPR68  M. Howard 2025,GPR68_Howard2025,2025,dms,True,1,27774,False,
+P2Y8  LaFlam 2025,P2RY8_LaFlam2025,2025,dms,False,1,21135,False,
+MC4R  C. Howard 2025,MC4R_Howard2025,2025,dms,False,1,112761,False,
+V2R  Mighell 2025,AVPR2_Mighell2025,2025,dms,False,1,29288,False,
+β2AR  Mighell 2026,ADRB2_Mighell2026,2026,dms,False,1,134535,False,
+Rho  Manian 2026,RHO_Manian2025,2026,dms,True,1,14205,False,
+Rho  Chen 2026,RHO_Chen2026,2026,dms,False,1,6095,False,
+FP  Boora 2026,PTGFR_Boora2026,2026,ala,False,1,1150,False,
+AT1R  Boora 2026,AGTR1_Boora2026,2026,ala,False,1,821,False,
+µOR  M. Howard 2026,OPRM1_Howard2026,2026,dms,True,1,392572,False,
+GPR161  M. Howard 2026,GPR161_Howard2026,2026,dms,True,1,32895,False,
