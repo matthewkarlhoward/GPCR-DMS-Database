@@ -1,0 +1,155 @@
+{
+  "title": "GPCR-DMS Database: raw per-variant GPCR mutational scanning data by study, aligned to GPCRdb numbering",
+  "upload_type": "dataset",
+  "description": "<p>Per-variant measurements from 22 published GPCR deep mutational scans, receptor-wide alanine scans and variant panels across 13 human receptors, in 23 study folders. Each study keeps its original files unmodified (<code>source/</code>) plus every per-variant table as CSV (<code>tables/</code>) with all of the authors' columns, and every table additionally carries GPCRdb generic and Ballesteros-Weinstein residue numbers so positions can be compared across receptors.</p><p><strong>Licensing:</strong> every dataset was published by someone else and keeps its own license; there is no single license over the collection. The MIT license applies only to the compilation (scripts, column layout, GPCRdb join, documentation). Three datasets are non-commercial (RHO_Chen2026 CC BY-NC-ND 4.0; AGTR1_Boora2026 and PTGFR_Boora2026 CC BY-NC 4.0) and AGTR1_Cao2023 carries no stated reuse license. See LICENSE.md, NOTICE.md and each study's LICENSE.txt. Please cite the original paper for each dataset you use (REFERENCES.md), and GPCRdb.</p>",
+  "creators": [
+    {
+      "name": "Howard, Matthew K.",
+      "affiliation": "University of California, San Francisco"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "GPCR",
+    "deep mutational scanning",
+    "alanine scanning",
+    "GPCRdb",
+    "variant effect",
+    "MaveDB"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1002/humu.23762",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.cell.2024.11.036",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.jbc.2021.101359",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.jbc.2022.102266",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.jbc.2023.105229",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.tips.2014.11.001",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.xgen.2025.100981",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41594-025-01659-6",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41594-026-01907-3",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1073/pnas.2624087123",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1074/jbc.RA118.006173",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1093/nar/gkac1013",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1126/sciadv.aay7505",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1126/sciadv.aef3518",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1126/science.adh1859",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1126/scisignal.adf2173",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.4049/jimmunol.1800343",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.64898/2026.08.28.747882",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.64898/2026.10.12.758633",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.64898/2026.10.30.762644",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.7554/eLife.104725",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.7554/eLife.54895",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}

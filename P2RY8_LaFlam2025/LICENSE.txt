@@ -1,0 +1,21 @@
+P2RY8_LaFlam2025
+Data license: CC BY 4.0, as part of the open-access article
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Cell Genomics supplementary Tables S1–S2 (mmc2.xlsx, mmc3.xlsx)
+  https://doi.org/10.1016/j.xgen.2025.100981
+
+Article license: CC BY 4.0 (Cell Genomics)
+
+Cite as:
+  LaFlam TN, Billesbølle CB, Dinh T, Wolfreys FD, Lu E, Matteson T, An J, Xu Y, Singhal A, Brandes N, Ntranos V, Manglik A, et al. Phenotypic pleiotropy of missense variants in human B cell confinement receptor P2RY8. Cell Genomics. 2025;5(11):100981. doi:10.1016/j.xgen.2025.100981
+  https://doi.org/10.1016/j.xgen.2025.100981
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

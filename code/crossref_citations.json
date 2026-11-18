@@ -1,0 +1,1110 @@
+{
+ "10.64898/2026.10.12.758633": {
+  "a": [
+   [
+    "Howard",
+    "Matthew K."
+   ],
+   [
+    "Fine",
+    "Eve J."
+   ],
+   [
+    "Srinivasan",
+    "Karthik"
+   ],
+   [
+    "Richman",
+    "Daniel D."
+   ],
+   [
+    "Freudenberg",
+    "Jerome"
+   ],
+   [
+    "Weinberg",
+    "Zara"
+   ],
+   [
+    "Rao",
+    "Jingyou"
+   ],
+   [
+    "Zou",
+    "Ziyue"
+   ],
+   [
+    "Macdonald",
+    "Christian"
+   ],
+   [
+    "Grimes",
+    "Patrick Rockefeller"
+   ],
+   [
+    "Varga",
+    "Balazs R."
+   ],
+   [
+    "Fraser",
+    "James S."
+   ],
+   [
+    "Von Zastrow",
+    "Mark"
+   ],
+   [
+    "Majumdar",
+    "Susruta"
+   ],
+   [
+    "Pimentel",
+    "Harold"
+   ],
+   [
+    "English",
+    "Justin"
+   ],
+   [
+    "Dror",
+    "Ron O."
+   ],
+   [
+    "Manglik",
+    "Aashish"
+   ],
+   [
+    "Coyote-Maestas",
+    "Willow"
+   ]
+  ],
+  "t": "Distinct activation mechanisms underlie ligand efficacy at a GPCR",
+  "j": "bioRxiv",
+  "v": "",
+  "i": "",
+  "p": "",
+  "y": 2026,
+  "lic": "http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "posted-content",
+  "pub": "openRxiv"
+ },
+ "10.1016/j.cell.2024.11.036": {
+  "a": [
+   [
+    "Howard",
+    "Matthew K."
+   ],
+   [
+    "Hoppe",
+    "Nicholas"
+   ],
+   [
+    "Huang",
+    "Xi-Ping"
+   ],
+   [
+    "Mitrovic",
+    "Darko"
+   ],
+   [
+    "Billesb\u00f8lle",
+    "Christian B."
+   ],
+   [
+    "Macdonald",
+    "Christian B."
+   ],
+   [
+    "Mehrotra",
+    "Eshan"
+   ],
+   [
+    "Rockefeller Grimes",
+    "Patrick"
+   ],
+   [
+    "Trinidad",
+    "Donovan D."
+   ],
+   [
+    "Delemotte",
+    "Lucie"
+   ],
+   [
+    "English",
+    "Justin G."
+   ],
+   [
+    "Coyote-Maestas",
+    "Willow"
+   ],
+   [
+    "Manglik",
+    "Aashish"
+   ]
+  ],
+  "t": "Molecular basis of proton sensing by G protein-coupled receptors",
+  "j": "Cell",
+  "v": "188",
+  "i": "3",
+  "p": "671-687.e20",
+  "y": 2025,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; https://www.elsevier.com/legal/tdmrep-license|tdm ; http://www.elsevier.com/open-access/userlicense/1.0/|vor ; https://doi.org/10.15223/policy-017|stm-asf ; https://doi.org/10.15223/policy-037|stm-asf ; https://doi.org/10.15223/policy-012|stm-asf ; https://doi.org/10.15223/policy-029|stm-asf ; https://doi.org/10.15223/policy-004|stm-asf",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.64898/2026.10.30.762644": {
+  "a": [
+   [
+    "Howard",
+    "Matthew K."
+   ],
+   [
+    "Whiteman",
+    "Sara"
+   ],
+   [
+    "Grimes",
+    "Patrick Rockefeller"
+   ],
+   [
+    "Macdonald",
+    "Christian"
+   ],
+   [
+    "Manglik",
+    "Aashish"
+   ],
+   [
+    "Coyote-Maestas",
+    "Willow"
+   ]
+  ],
+  "t": "Mapping the sequence determinants of constitutive activity in GPCRs",
+  "j": "bioRxiv",
+  "v": "",
+  "i": "",
+  "p": "",
+  "y": 2026,
+  "lic": "http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "posted-content",
+  "pub": "openRxiv"
+ },
+ "10.7554/eLife.104725": {
+  "a": [
+   [
+    "Howard",
+    "Conor J"
+   ],
+   [
+    "Abell",
+    "Nathan S"
+   ],
+   [
+    "Osuna",
+    "Beatriz A"
+   ],
+   [
+    "Jones",
+    "Eric M"
+   ],
+   [
+    "Chan",
+    "Leon Y"
+   ],
+   [
+    "Chan",
+    "Henry"
+   ],
+   [
+    "Artis",
+    "Dean R"
+   ],
+   [
+    "Asfaha",
+    "Jonathan B"
+   ],
+   [
+    "Bloom",
+    "Joshua S"
+   ],
+   [
+    "Cooper",
+    "Aaron R"
+   ],
+   [
+    "Liao",
+    "Andrew"
+   ],
+   [
+    "Mahdavi",
+    "Eden"
+   ],
+   [
+    "Mohammed",
+    "Nabil"
+   ],
+   [
+    "Su",
+    "Alan L"
+   ],
+   [
+    "Uribe",
+    "Giselle A"
+   ],
+   [
+    "Kosuri",
+    "Sriram"
+   ],
+   [
+    "Dickel",
+    "Diane E"
+   ],
+   [
+    "Lubock",
+    "Nathan B"
+   ]
+  ],
+  "t": "High-resolution deep mutational scanning of the melanocortin-4 receptor enables target characterization for drug discovery",
+  "j": "eLife",
+  "v": "13",
+  "i": "",
+  "p": "RP104725",
+  "y": 2025,
+  "lic": "http://creativecommons.org/licenses/by/4.0/|vor ; http://creativecommons.org/licenses/by/4.0/|am ; http://creativecommons.org/licenses/by/4.0/|tdm",
+  "type": "journal-article",
+  "pub": "eLife Sciences Publications, Ltd"
+ },
+ "10.7554/eLife.54895": {
+  "a": [
+   [
+    "Jones",
+    "Eric M"
+   ],
+   [
+    "Lubock",
+    "Nathan B"
+   ],
+   [
+    "Venkatakrishnan",
+    "AJ"
+   ],
+   [
+    "Wang",
+    "Jeffrey"
+   ],
+   [
+    "Tseng",
+    "Alex M"
+   ],
+   [
+    "Paggi",
+    "Joseph M"
+   ],
+   [
+    "Latorraca",
+    "Naomi R"
+   ],
+   [
+    "Cancilla",
+    "Daniel"
+   ],
+   [
+    "Satyadi",
+    "Megan"
+   ],
+   [
+    "Davis",
+    "Jessica E"
+   ],
+   [
+    "Babu",
+    "M Madan"
+   ],
+   [
+    "Dror",
+    "Ron O"
+   ],
+   [
+    "Kosuri",
+    "Sriram"
+   ]
+  ],
+  "t": "Structural and functional characterization of G protein\u2013coupled receptors with deep mutational scanning",
+  "j": "eLife",
+  "v": "9",
+  "i": "",
+  "p": "e54895",
+  "y": 2020,
+  "lic": "http://creativecommons.org/licenses/by/4.0/|vor ; http://creativecommons.org/licenses/by/4.0/|am ; http://creativecommons.org/licenses/by/4.0/|tdm",
+  "type": "journal-article",
+  "pub": "eLife Sciences Publications, Ltd"
+ },
+ "10.1038/s41594-026-01907-3": {
+  "a": [
+   [
+    "Mighell",
+    "Taylor L."
+   ],
+   [
+    "Lehner",
+    "Ben"
+   ]
+  ],
+  "t": "GPCR-MAPS: high-resolution functional and allosteric mapping of G-protein-coupled receptor activation functions and bias",
+  "j": "Nature Structural &amp; Molecular Biology",
+  "v": "33",
+  "i": "11",
+  "p": "1718-1732",
+  "y": 2026,
+  "lic": "https://creativecommons.org/licenses/by/4.0|tdm ; https://creativecommons.org/licenses/by/4.0|vor",
+  "type": "journal-article",
+  "pub": "Springer Science and Business Media LLC"
+ },
+ "10.1126/science.adh1859": {
+  "a": [
+   [
+    "Heydenreich",
+    "Franziska M."
+   ],
+   [
+    "Marti-Solano",
+    "Maria"
+   ],
+   [
+    "Sandhu",
+    "Manbir"
+   ],
+   [
+    "Kobilka",
+    "Brian K."
+   ],
+   [
+    "Bouvier",
+    "Michel"
+   ],
+   [
+    "Babu",
+    "M. Madan"
+   ]
+  ],
+  "t": "Molecular determinants of ligand efficacy and potency in GPCR signaling",
+  "j": "Science",
+  "v": "382",
+  "i": "6677",
+  "p": "eadh1859",
+  "y": 2023,
+  "lic": "",
+  "type": "journal-article",
+  "pub": "American Association for the Advancement of Science (AAAS)"
+ },
+ "10.1038/s41594-025-01659-6": {
+  "a": [
+   [
+    "Mighell",
+    "Taylor L."
+   ],
+   [
+    "Lehner",
+    "Ben"
+   ]
+  ],
+  "t": "A small molecule stabilizer rescues the surface expression of nearly all missense variants in a GPCR",
+  "j": "Nature Structural &amp; Molecular Biology",
+  "v": "32",
+  "i": "12",
+  "p": "2429-2440",
+  "y": 2025,
+  "lic": "https://creativecommons.org/licenses/by/4.0|tdm ; https://creativecommons.org/licenses/by/4.0|vor",
+  "type": "journal-article",
+  "pub": "Springer Science and Business Media LLC"
+ },
+ "10.1074/jbc.RA118.006173": {
+  "a": [
+   [
+    "Park",
+    "Jihye"
+   ],
+   [
+    "Selvam",
+    "Balaji"
+   ],
+   [
+    "Sanematsu",
+    "Keisuke"
+   ],
+   [
+    "Shigemura",
+    "Noriatsu"
+   ],
+   [
+    "Shukla",
+    "Diwakar"
+   ],
+   [
+    "Procko",
+    "Erik"
+   ]
+  ],
+  "t": "Structural architecture of a dimeric class C GPCR based on co-trafficking of sweet taste receptor subunits",
+  "j": "Journal of Biological Chemistry",
+  "v": "294",
+  "i": "13",
+  "p": "4759-4774",
+  "y": 2019,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.1016/j.jbc.2023.105229": {
+  "a": [
+   [
+    "Gill",
+    "Kevin S."
+   ],
+   [
+    "Mehta",
+    "Kritika"
+   ],
+   [
+    "Heredia",
+    "Jeremiah D."
+   ],
+   [
+    "Krishnamurthy",
+    "Vishnu V."
+   ],
+   [
+    "Zhang",
+    "Kai"
+   ],
+   [
+    "Procko",
+    "Erik"
+   ]
+  ],
+  "t": "Multiple mechanisms of self-association of chemokine receptors CXCR4 and CCR5 demonstrated by deep mutagenesis",
+  "j": "Journal of Biological Chemistry",
+  "v": "299",
+  "i": "10",
+  "p": "105229",
+  "y": 2023,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; https://www.elsevier.com/legal/tdmrep-license|tdm ; http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.4049/jimmunol.1800343": {
+  "a": [
+   [
+    "Heredia",
+    "Jeremiah D"
+   ],
+   [
+    "Park",
+    "Jihye"
+   ],
+   [
+    "Brubaker",
+    "Riley J"
+   ],
+   [
+    "Szymanski",
+    "Steven K"
+   ],
+   [
+    "Gill",
+    "Kevin S"
+   ],
+   [
+    "Procko",
+    "Erik"
+   ]
+  ],
+  "t": "Mapping Interaction Sites on Human Chemokine Receptors by Deep Mutational Scanning",
+  "j": "The Journal of Immunology",
+  "v": "200",
+  "i": "11",
+  "p": "3825-3839",
+  "y": 2018,
+  "lic": "https://academic.oup.com/pages/standard-publication-reuse-rights|vor",
+  "type": "journal-article",
+  "pub": "Oxford University Press (OUP)"
+ },
+ "10.1016/j.xgen.2025.100981": {
+  "a": [
+   [
+    "LaFlam",
+    "Taylor N."
+   ],
+   [
+    "Billesb\u00f8lle",
+    "Christian B."
+   ],
+   [
+    "Dinh",
+    "Tuan"
+   ],
+   [
+    "Wolfreys",
+    "Finn D."
+   ],
+   [
+    "Lu",
+    "Erick"
+   ],
+   [
+    "Matteson",
+    "Tomas"
+   ],
+   [
+    "An",
+    "Jinping"
+   ],
+   [
+    "Xu",
+    "Ying"
+   ],
+   [
+    "Singhal",
+    "Arushi"
+   ],
+   [
+    "Brandes",
+    "Nadav"
+   ],
+   [
+    "Ntranos",
+    "Vasilis"
+   ],
+   [
+    "Manglik",
+    "Aashish"
+   ],
+   [
+    "Cyster",
+    "Jason G."
+   ],
+   [
+    "Ye",
+    "Chun Jimmie"
+   ]
+  ],
+  "t": "Phenotypic pleiotropy of missense variants in human B cell confinement receptor P2RY8",
+  "j": "Cell Genomics",
+  "v": "5",
+  "i": "11",
+  "p": "100981",
+  "y": 2025,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; https://www.elsevier.com/legal/tdmrep-license|tdm ; http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.1126/sciadv.aef3518": {
+  "a": [
+   [
+    "Manian",
+    "Kannan V."
+   ],
+   [
+    "Ludwig",
+    "Connor H."
+   ],
+   [
+    "Zhao",
+    "Yan"
+   ],
+   [
+    "Abell",
+    "Nathan S."
+   ],
+   [
+    "Warneford-Thomson",
+    "Robert"
+   ],
+   [
+    "Chan",
+    "Henry"
+   ],
+   [
+    "Casey",
+    "Zachary O."
+   ],
+   [
+    "Yang",
+    "Xiaoping"
+   ],
+   [
+    "Root",
+    "David E."
+   ],
+   [
+    "Albert",
+    "Matthew L."
+   ],
+   [
+    "Comander",
+    "Jason"
+   ]
+  ],
+  "t": "A comprehensive map of missense trafficking variants in rhodopsin and their response to pharmacologic correction",
+  "j": "Science Advances",
+  "v": "12",
+  "i": "31",
+  "p": "eaef3518",
+  "y": 2026,
+  "lic": "",
+  "type": "journal-article",
+  "pub": "American Association for the Advancement of Science (AAAS)"
+ },
+ "10.1073/pnas.2624087123": {
+  "a": [
+   [
+    "Chen",
+    "Steven K."
+   ],
+   [
+    "Liu",
+    "Jing"
+   ],
+   [
+    "Chang",
+    "Belinda S. W."
+   ]
+  ],
+  "t": "Deep mutational scanning of the GPCR rhodopsin reveals pleiotropic mutational effects and their roles in modulating receptor signaling",
+  "j": "Proceedings of the National Academy of Sciences",
+  "v": "123",
+  "i": "44",
+  "p": "e2624087123",
+  "y": 2026,
+  "lic": "https://creativecommons.org/licenses/by-nc-nd/4.0/|vor",
+  "type": "journal-article",
+  "pub": "National Academy of Sciences"
+ },
+ "10.1016/j.jbc.2021.101359": {
+  "a": [
+   [
+    "McKee",
+    "Andrew G."
+   ],
+   [
+    "Kuntz",
+    "Charles P."
+   ],
+   [
+    "Ortega",
+    "Joseph T."
+   ],
+   [
+    "Woods",
+    "Hope"
+   ],
+   [
+    "Most",
+    "Victoria"
+   ],
+   [
+    "Roushar",
+    "Francis J."
+   ],
+   [
+    "Meiler",
+    "Jens"
+   ],
+   [
+    "Jastrzebska",
+    "Beata"
+   ],
+   [
+    "Schlebach",
+    "Jonathan P."
+   ]
+  ],
+  "t": "Systematic profiling of temperature- and retinal-sensitive rhodopsin variants by deep mutational scanning",
+  "j": "Journal of Biological Chemistry",
+  "v": "297",
+  "i": "6",
+  "p": "101359",
+  "y": 2021,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; https://www.elsevier.com/legal/tdmrep-license|tdm ; http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.1126/sciadv.aay7505": {
+  "a": [
+   [
+    "Penn",
+    "Wesley D."
+   ],
+   [
+    "McKee",
+    "Andrew G."
+   ],
+   [
+    "Kuntz",
+    "Charles P."
+   ],
+   [
+    "Woods",
+    "Hope"
+   ],
+   [
+    "Nash",
+    "Veronica"
+   ],
+   [
+    "Gruenhagen",
+    "Timothy C."
+   ],
+   [
+    "Roushar",
+    "Francis J."
+   ],
+   [
+    "Chandak",
+    "Mahesh"
+   ],
+   [
+    "Hemmerich",
+    "Chris"
+   ],
+   [
+    "Rusch",
+    "Douglas B."
+   ],
+   [
+    "Meiler",
+    "Jens"
+   ],
+   [
+    "Schlebach",
+    "Jonathan P."
+   ]
+  ],
+  "t": "Probing biophysical sequence constraints within the transmembrane domains of rhodopsin by deep mutational scanning",
+  "j": "Science Advances",
+  "v": "6",
+  "i": "10",
+  "p": "eaay7505",
+  "y": 2020,
+  "lic": "",
+  "type": "journal-article",
+  "pub": "American Association for the Advancement of Science (AAAS)"
+ },
+ "10.1016/j.jbc.2022.102266": {
+  "a": [
+   [
+    "Roushar",
+    "Francis J."
+   ],
+   [
+    "McKee",
+    "Andrew G."
+   ],
+   [
+    "Kuntz",
+    "Charles P."
+   ],
+   [
+    "Ortega",
+    "Joseph T."
+   ],
+   [
+    "Penn",
+    "Wesley D."
+   ],
+   [
+    "Woods",
+    "Hope"
+   ],
+   [
+    "Chamness",
+    "Laura M."
+   ],
+   [
+    "Most",
+    "Victoria"
+   ],
+   [
+    "Meiler",
+    "Jens"
+   ],
+   [
+    "Jastrzebska",
+    "Beata"
+   ],
+   [
+    "Schlebach",
+    "Jonathan P."
+   ]
+  ],
+  "t": "Molecular basis for variations in the sensitivity of pathogenic rhodopsin variants to 9-cis-retinal",
+  "j": "Journal of Biological Chemistry",
+  "v": "298",
+  "i": "8",
+  "p": "102266",
+  "y": 2022,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm ; https://www.elsevier.com/legal/tdmrep-license|tdm ; http://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.1002/humu.23762": {
+  "a": [
+   [
+    "Wan",
+    "Aliete"
+   ],
+   [
+    "Place",
+    "Emily"
+   ],
+   [
+    "Pierce",
+    "Eric A."
+   ],
+   [
+    "Comander",
+    "Jason"
+   ]
+  ],
+  "t": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach",
+  "j": "Human Mutation",
+  "v": "40",
+  "i": "8",
+  "p": "1127-1144",
+  "y": 2019,
+  "lic": "http://creativecommons.org/licenses/by-nc-nd/4.0/|vor ; http://doi.wiley.com/10.1002/tdm_license_1.1|tdm",
+  "type": "journal-article",
+  "pub": "Wiley"
+ },
+ "10.1126/scisignal.adf2173": {
+  "a": [
+   [
+    "Cao",
+    "Yubo"
+   ],
+   [
+    "van der Velden",
+    "Wijnand J.\u00a0C."
+   ],
+   [
+    "Namkung",
+    "Yoon"
+   ],
+   [
+    "Nivedha",
+    "Anita K."
+   ],
+   [
+    "Cho",
+    "Aaron"
+   ],
+   [
+    "Sedki",
+    "Dana"
+   ],
+   [
+    "Holleran",
+    "Brian"
+   ],
+   [
+    "Lee",
+    "Nicholas"
+   ],
+   [
+    "Leduc",
+    "Richard"
+   ],
+   [
+    "Muk",
+    "Sanychen"
+   ],
+   [
+    "Le",
+    "Keith"
+   ],
+   [
+    "Bhattacharya",
+    "Supriyo"
+   ],
+   [
+    "Vaidehi",
+    "Nagarajan"
+   ],
+   [
+    "Laporte",
+    "St\u00e9phane A."
+   ]
+  ],
+  "t": "Unraveling allostery within the angiotensin II type 1 receptor for G\u03b1\n                    <sub>q</sub>\n                    and \u03b2-arrestin coupling",
+  "j": "Science Signaling",
+  "v": "16",
+  "i": "797",
+  "p": "eadf2173",
+  "y": 2023,
+  "lic": "",
+  "type": "journal-article",
+  "pub": "American Association for the Advancement of Science (AAAS)"
+ },
+ "10.64898/2026.08.28.747882": {
+  "a": [
+   [
+    "Boora",
+    "Tegvir S."
+   ],
+   [
+    "Chen",
+    "Hanyu"
+   ],
+   [
+    "Cho",
+    "Aaron"
+   ],
+   [
+    "van der Velden",
+    "Wijnand J. C."
+   ],
+   [
+    "Namkung",
+    "Yoon"
+   ],
+   [
+    "Cao",
+    "Yubo"
+   ],
+   [
+    "Paranjpe",
+    "Jay Y."
+   ],
+   [
+    "Heydenreich",
+    "Franziska M."
+   ],
+   [
+    "Rodin",
+    "Andrei S."
+   ],
+   [
+    "Branciamore",
+    "Sergio"
+   ],
+   [
+    "Vaidehi",
+    "Nagarajan"
+   ],
+   [
+    "Laporte",
+    "St\u00e9phane A."
+   ]
+  ],
+  "t": "Allosteric pathways govern G\u03b1 protein coupling selectivity at promiscuous GPCRs",
+  "j": "bioRxiv",
+  "v": "",
+  "i": "",
+  "p": "",
+  "y": 2026,
+  "lic": "http://creativecommons.org/licenses/by-nc/4.0/|vor",
+  "type": "posted-content",
+  "pub": "openRxiv"
+ },
+ "10.1093/nar/gkac1013": {
+  "a": [
+   [
+    "P\u00e1ndy-Szekeres",
+    "G\u00e1sp\u00e1r"
+   ],
+   [
+    "Caroli",
+    "Jimmy"
+   ],
+   [
+    "Mamyrbekov",
+    "Alibek"
+   ],
+   [
+    "Kermani",
+    "Ali A"
+   ],
+   [
+    "Keser\u0171",
+    "Gy\u00f6rgy\u00a0M"
+   ],
+   [
+    "Kooistra",
+    "Albert\u00a0J"
+   ],
+   [
+    "Gloriam",
+    "David E"
+   ]
+  ],
+  "t": "GPCRdb in 2023: state-specific structure models using AlphaFold2 and new ligand resources",
+  "j": "Nucleic Acids Research",
+  "v": "51",
+  "i": "D1",
+  "p": "D395-D402",
+  "y": 2022,
+  "lic": "https://creativecommons.org/licenses/by/4.0/|vor",
+  "type": "journal-article",
+  "pub": "Oxford University Press (OUP)"
+ },
+ "10.1016/j.tips.2014.11.001": {
+  "a": [
+   [
+    "Isberg",
+    "Vignir"
+   ],
+   [
+    "de Graaf",
+    "Chris"
+   ],
+   [
+    "Bortolato",
+    "Andrea"
+   ],
+   [
+    "Cherezov",
+    "Vadim"
+   ],
+   [
+    "Katritch",
+    "Vsevolod"
+   ],
+   [
+    "Marshall",
+    "Fiona H."
+   ],
+   [
+    "Mordalski",
+    "Stefan"
+   ],
+   [
+    "Pin",
+    "Jean-Philippe"
+   ],
+   [
+    "Stevens",
+    "Raymond C."
+   ],
+   [
+    "Vriend",
+    "Gerrit"
+   ],
+   [
+    "Gloriam",
+    "David E."
+   ]
+  ],
+  "t": "Generic GPCR residue numbers \u2013 aligning topology maps while minding the gaps",
+  "j": "Trends in Pharmacological Sciences",
+  "v": "36",
+  "i": "1",
+  "p": "22-31",
+  "y": 2015,
+  "lic": "https://www.elsevier.com/tdm/userlicense/1.0/|tdm",
+  "type": "journal-article",
+  "pub": "Elsevier BV"
+ },
+ "10.5281/zenodo.15363336": "ERR SyntaxError: Unexpected token 'R', \"Resource not found.\" is not valid JSON",
+ "10.5281/zenodo.14216036": "ERR SyntaxError: Unexpected token 'R', \"Resource not found.\" is not valid JSON"
+}

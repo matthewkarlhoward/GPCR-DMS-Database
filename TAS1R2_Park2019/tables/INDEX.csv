@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/GSE115751_enrichment_ratios_T1R2.csv.gz,17115,7,GSE115751_enrichment_ratios_T1R2.xlsx,naive-library frequency and per-replicate log2 enrichment ratios for both sorts,27%,none,Residue ; Substitution ; Naïve Library 1 | Frequency ; Surface expr. (anti-FLAG-Cy3) | Replicate 1 ; Surface expr. (anti-FLAG-Cy3) | Replicate 2 ; Surface expr. of T1R3 (anti-myc-Alexa 647) | Replicate 1 ; Surface expr. of T1R3 (anti-myc-Alexa 647) | Replicate 2

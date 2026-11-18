@@ -1,0 +1,21 @@
+MC4R_Howard2025
+Data license: MIT
+License text: https://opensource.org/licenses/MIT
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Octant GitHub repository octantbio/mc4r-dms (sumstats/)
+  https://github.com/octantbio/mc4r-dms
+
+Article license: CC BY 4.0 (eLife)
+
+Cite as:
+  Howard CJ, Abell NS, Osuna BA, Jones EM, Chan LY, Chan H, Artis DR, Asfaha JB, Bloom JS, Cooper AR, Liao A, Mahdavi E, et al. High-resolution deep mutational scanning of the melanocortin-4 receptor enables target characterization for drug discovery. eLife. 2025;13:RP104725. doi:10.7554/eLife.104725
+  https://doi.org/10.7554/eLife.104725
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

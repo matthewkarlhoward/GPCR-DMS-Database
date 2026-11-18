@@ -1,0 +1,21 @@
+RHO_Roushar2022
+Data license: CC BY 4.0, as part of the open-access article
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: JBC supplementary Table S1 (PMC9399271 mmc1.pdf), parsed from the PDF table
+  https://doi.org/10.1016/j.jbc.2022.102266
+
+Article license: CC BY 4.0 (JBC; ASBMB open access)
+
+Cite as:
+  Roushar FJ, McKee AG, Kuntz CP, Ortega JT, Penn WD, Woods H, Chamness LM, Most V, Meiler J, Jastrzebska B, Schlebach JP. Molecular basis for variations in the sensitivity of pathogenic rhodopsin variants to 9-cis-retinal. Journal of Biological Chemistry. 2022;298(8):102266. doi:10.1016/j.jbc.2022.102266
+  https://doi.org/10.1016/j.jbc.2022.102266
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

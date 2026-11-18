@@ -1,0 +1,21 @@
+AVPR2_Mighell2025
+Data license: CC BY 4.0
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Zenodo record 14216036 (v2R_all_exp_all_reps_com_and_norm.xlsx)
+  https://zenodo.org/records/14216036
+
+Article license: CC BY 4.0 (Nature Structural & Molecular Biology)
+
+Cite as:
+  Mighell TL, Lehner B. A small molecule stabilizer rescues the surface expression of nearly all missense variants in a GPCR. Nature Structural & Molecular Biology. 2025;32(12):2429-2440. doi:10.1038/s41594-025-01659-6
+  https://doi.org/10.1038/s41594-025-01659-6
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

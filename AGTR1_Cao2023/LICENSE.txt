@@ -1,0 +1,21 @@
+AGTR1_Cao2023
+Data license: Publisher copyright; no explicit data-reuse licence. Included here as the authors' published supplementary data, cited in full. AAAS permits reuse of supplementary data for non-commercial research; anything beyond that needs permission from AAAS
+License text: https://www.science.org/content/page/reuse-and-republication-permissions
+Redistribution status: cite-only - No explicit data-reuse licence. Redistributed here as the authors' published supplementary data, fully cited; see the note below before reusing.
+
+Source of the data: Science Signaling supplementary Data files S1–S5
+  https://doi.org/10.1126/scisignal.adf2173
+
+Article license: No reuse licence declared; the article is not open access (AAAS / Science Signaling). © 2023 AAAS
+
+Cite as:
+  Cao Y, van der Velden WJC, Namkung Y, Nivedha AK, Cho A, Sedki D, Holleran B, Lee N, Leduc R, Muk S, Le K, Bhattacharya S, et al. Unraveling allostery within the angiotensin II type 1 receptor for Gαq and β-arrestin coupling. Science Signaling. 2023;16(797):eadf2173. doi:10.1126/scisignal.adf2173
+  https://doi.org/10.1126/scisignal.adf2173
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

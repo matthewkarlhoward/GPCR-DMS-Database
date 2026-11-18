@@ -1,0 +1,4 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/mavedb_00000047-a-1.csv.gz,7020,9,MaveDB urn:mavedb:00000047-a-1 scores CSV,,78%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; rep1_anti-myc-FITC ; rep2_anti-myc-FITC ; rep1_anti-myc-Alexa ; rep2_anti-myc-Alexa
+tables/mavedb_00000047-b-1.csv.gz,7020,7,MaveDB urn:mavedb:00000047-b-1 scores CSV,,78%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; rep1 ; rep2
+tables/mavedb_00000047-c-1.csv.gz,7020,7,MaveDB urn:mavedb:00000047-c-1 scores CSV,,78%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; rep1 ; rep2

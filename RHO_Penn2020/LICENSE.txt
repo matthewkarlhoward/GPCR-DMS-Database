@@ -1,0 +1,21 @@
+RHO_Penn2020
+Data license: CC BY 4.0 (via the McKee 2021 open-access supplement that carries these values)
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: The ±9-cis-retinal ratios reported for Penn et al. variants in McKee et al. 2021 JBC Table S1 (CC BY 4.0). The Penn 2020 supplement itself releases sequencing counts only, which are out of scope here
+  https://doi.org/10.1016/j.jbc.2021.101359
+
+Article license: No reuse licence declared in Crossref (AAAS / Science Advances; Europe PMC records the article as CC BY)
+
+Cite as:
+  Penn WD, McKee AG, Kuntz CP, Woods H, Nash V, Gruenhagen TC, Roushar FJ, Chandak M, Hemmerich C, Rusch DB, Meiler J, Schlebach JP. Probing biophysical sequence constraints within the transmembrane domains of rhodopsin by deep mutational scanning. Science Advances. 2020;6(10):eaay7505. doi:10.1126/sciadv.aay7505
+  https://doi.org/10.1126/sciadv.aay7505
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

@@ -1,0 +1,21 @@
+ADRB2_Jones2020
+Data license: MIT
+License text: https://opensource.org/licenses/MIT
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Kosuri lab GitHub repository KosuriLab/b2-dms (output/)
+  https://github.com/KosuriLab/b2-dms
+
+Article license: CC BY 4.0 (eLife)
+
+Cite as:
+  Jones EM, Lubock NB, Venkatakrishnan A, Wang J, Tseng AM, Paggi JM, Latorraca NR, Cancilla D, Satyadi M, Davis JE, Babu MM, Dror RO, et al. Structural and functional characterization of G protein–coupled receptors with deep mutational scanning. eLife. 2020;9:e54895. doi:10.7554/eLife.54895
+  https://doi.org/10.7554/eLife.54895
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

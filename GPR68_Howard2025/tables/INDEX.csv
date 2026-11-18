@@ -1,0 +1,7 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/GPR68_replicate_scores.csv.gz,8971,10,github GPR68_DMS_Analysis/GPR68_DMS/figures/GPR68_replicate_scores.tsv,per-replicate scores (3 replicates x 3 conditions),73%,none,hgvs ; ph_5.5_R1 ; ph_5.5_R2 ; ph_5.5_R3 ; ph_6.5_R1 ; ph_6.5_R2 ; ph_6.5_R3 ; surface_R1 ; surface_R2 ; surface_R3
+tables/gpr68_scores_processed.csv.gz,9258,14,github GPR68_DMS_Analysis/GPR68_DMS/figures/gpr68_scores_processed.csv,"Enrich2 score, SE and epsilon per condition",73%,none,hgvs ; SE_ph55 ; epsilon_ph55 ; score_ph55 ; SE_ph65 ; epsilon_ph65 ; score_ph65 ; SE_surface ; epsilon_surface ; score_surface ; len ; mutation_type ; variants ; is.wt
+tables/ph55_GOF.csv.gz,361,2,github GPR68_DMS_Analysis/GPR68_DMS/figures/ph55_GOF.tsv,position-level summary used for structure colouring (no header in source),73%,none,position ; value
+tables/ph55_LOF.csv.gz,364,2,github GPR68_DMS_Analysis/GPR68_DMS/figures/ph55_LOF.tsv,position-level summary used for structure colouring (no header in source),73%,none,position ; value
+tables/ph65_GOF.csv.gz,361,2,github GPR68_DMS_Analysis/GPR68_DMS/figures/ph65_GOF.tsv,position-level summary used for structure colouring (no header in source),73%,none,position ; value
+tables/ph65_LOF.csv.gz,364,2,github GPR68_DMS_Analysis/GPR68_DMS/figures/ph65_LOF.tsv,position-level summary used for structure colouring (no header in source),73%,none,position ; value

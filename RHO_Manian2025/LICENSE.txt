@@ -1,0 +1,21 @@
+RHO_Manian2025
+Data license: CC0 1.0 (public domain dedication)
+License text: https://creativecommons.org/publicdomain/zero/1.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: MaveDB score sets urn:mavedb:00001275-a-1 and -a-2
+  https://www.mavedb.org/experiment-sets/urn:mavedb:00001275
+
+Article license: No reuse licence declared in Crossref (AAAS / Science Advances; the article is open access and Europe PMC records it as CC BY)
+
+Cite as:
+  Manian KV, Ludwig CH, Zhao Y, Abell NS, Warneford-Thomson R, Chan H, Casey ZO, Yang X, Root DE, Albert ML, Comander J. A comprehensive map of missense trafficking variants in rhodopsin and their response to pharmacologic correction. Science Advances. 2026;12(31):eaef3518. doi:10.1126/sciadv.aef3518
+  https://doi.org/10.1126/sciadv.aef3518
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

@@ -1,0 +1,22 @@
+PTGFR_Boora2026
+Data license: CC BY-NC 4.0. Non-commercial use only; adaptation allowed with credit
+License text: http://creativecommons.org/licenses/by-nc/4.0/
+Redistribution status: permissive-with-conditions - An open licence permits redistribution, with conditions a reuser must respect (see below).
+
+Source of the data: bioRxiv supplementary Data S1 and S3
+  https://doi.org/10.64898/2026.08.28.747882
+
+Article license: CC BY-NC 4.0 (bioRxiv preprint)
+  http://creativecommons.org/licenses/by-nc/4.0/
+
+Cite as:
+  Boora TS, Chen H, Cho A, van der Velden WJC, Namkung Y, Cao Y, Paranjpe JY, Heydenreich FM, Rodin AS, Branciamore S, Vaidehi N, Laporte SA. Allosteric pathways govern Gα protein coupling selectivity at promiscuous GPCRs. bioRxiv. 2026. doi:10.64898/2026.08.28.747882
+  https://doi.org/10.64898/2026.08.28.747882
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

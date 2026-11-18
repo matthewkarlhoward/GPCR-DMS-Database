@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/mavedb_00000099-a-1.csv.gz,211,9,MaveDB urn:mavedb:00000099-a-1 scores CSV,,64%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; ci_low ; ci_high ; single_plex_mean ; single_plex_stderr

@@ -1,0 +1,22 @@
+RHO_Wan2019
+Data license: CC0 1.0 (public domain dedication). The authors' own MaveDB deposit carries CC0, so redistribution of the scores is unrestricted even though the article is ND
+License text: https://creativecommons.org/publicdomain/zero/1.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: MaveDB score set urn:mavedb:00000099-a-1
+  https://www.mavedb.org/experiment-sets/urn:mavedb:00000099
+
+Article license: CC BY-NC-ND 4.0 (Human Mutation, Wiley)
+  http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Cite as:
+  Wan A, Place E, Pierce EA, Comander J. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Human Mutation. 2019;40(8):1127-1144. doi:10.1002/humu.23762
+  https://doi.org/10.1002/humu.23762
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

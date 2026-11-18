@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/heydenreich_columns_from_b2AR_all_data_annot.csv.gz,412,9,Zenodo 15363336 (Heydenreich_* columns),Heydenreich Table S1 values mirrored by the GPCR-MAPS authors,65%,"R16 (GPCRdb G), Q27 (GPCRdb E)",variant_id ; WT_aa ; Heydenreich_expression ; Heydenreich_expression_SEM ; Heydenreich_curation ; Heydenreich_amplitude ; Heydenreich_amplitude_SEM ; Heydenreich_EC50 ; Heydenreich_EC50_SEM

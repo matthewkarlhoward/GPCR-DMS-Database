@@ -1,0 +1,3 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/Dataset_S1.csv.gz,105,8,PNAS Dataset S1,Sanger validation of library colonies,no positions,none,Colony # ; Variants detected ; col2 ; col3 ; col4 ; WT? ; Mutation # ; col8
+tables/Dataset_S2.csv.gz,2121,9,PNAS Dataset S2,all published columns incl. light/dark ratio,78%,none,Variant ; Position ; variant_type ; Domain ; Interaction ; Scaled_dark_activity_scores ; Scaled_light_activity_scores ; Scaled_light-over-dark_activation_scores ; Scaled_Abundance_scores

@@ -1,0 +1,5 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/class-norm-int.csv.gz,26258,6,github KosuriLab/b2-dms/output/class-norm-int.csv.gz,per condition x repeat x position x residue class,65%,none,Condition ; Repeat ; Pos ; Class ; Mean ; N
+tables/lib-med.csv.gz,62424,10,github KosuriLab/b2-dms/output/lib-med.csv.gz,"per condition x repeat x variant: median, MAD, mean, SD, CV, N of barcodes (pre-normalisation)",65%,none,Condition ; Repeat ; Pos ; AA ; Median ; MAD ; Mean ; SD ; CV ; N
+tables/negs-med.csv.gz,3312,10,github KosuriLab/b2-dms/output/negs-med.csv.gz,frameshift / negative-control barcodes,65%,none,Condition ; Repeat ; Pos ; Median ; MAD ; Mean ; SD ; CV ; N ; AA
+tables/scalars.csv.gz,16,7,github KosuriLab/b2-dms/output/scalars.csv,per condition x repeat normalisation scalars (synonymous and frameshift),no positions,none,Condition ; Repeat ; Scale_Median ; Scale_Mean ; Scale_SD ; Scale_N ; Variant

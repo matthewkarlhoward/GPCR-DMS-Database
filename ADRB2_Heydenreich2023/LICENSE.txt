@@ -1,0 +1,21 @@
+ADRB2_Heydenreich2023
+Data license: CC BY 4.0 (the Zenodo deposit these columns were taken from)
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Science Table S1 values, taken from the columns prefixed Heydenreich_ in the Zenodo 15363336 deposit of Mighell et al.
+  https://zenodo.org/records/15363336
+
+Article license: No reuse licence declared by the publisher (AAAS / Science)
+
+Cite as:
+  Heydenreich FM, Marti-Solano M, Sandhu M, Kobilka BK, Bouvier M, Babu MM. Molecular determinants of ligand efficacy and potency in GPCR signaling. Science. 2023;382(6677):eadh1859. doi:10.1126/science.adh1859
+  https://doi.org/10.1126/science.adh1859
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

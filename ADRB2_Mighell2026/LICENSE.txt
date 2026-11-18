@@ -1,0 +1,21 @@
+ADRB2_Mighell2026
+Data license: CC BY 4.0
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Zenodo record 15363336 (b2AR_all_data_annot.csv.gz)
+  https://zenodo.org/records/15363336
+
+Article license: CC BY 4.0 (Nature Structural & Molecular Biology)
+
+Cite as:
+  Mighell TL, Lehner B. GPCR-MAPS: high-resolution functional and allosteric mapping of G-protein-coupled receptor activation functions and bias. Nature Structural & Molecular Biology. 2026;33(11):1718-1732. doi:10.1038/s41594-026-01907-3
+  https://doi.org/10.1038/s41594-026-01907-3
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

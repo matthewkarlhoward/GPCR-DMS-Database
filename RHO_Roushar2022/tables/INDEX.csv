@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/Roushar2022_TableS1.csv.gz,123,7,"JBC 2022 Table S1 (mmc1.pdf), parsed with pdftotext",all columns of Table S1,65%,none,Mutation ; Prior classification ; DMS classification ; Surface immunostaining intensity (apo) ; SE (apo) ; Surface immunostaining intensity (+Ret) ; SE (+Ret)

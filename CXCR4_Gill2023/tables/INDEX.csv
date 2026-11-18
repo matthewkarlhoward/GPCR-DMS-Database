@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/GSE125426_CXCR4.csv.gz,7203,7,GSE125426_X4R5_BiFC_enrichment_ratios.xlsx,"naive-library frequency and per-replicate log2 enrichment ratios (surface, BiFC)",78%,none,Residue ; Substitution ; Naïve Library | Frequency ; Surface expression | Replicate 1 ; Surface expression | Replicate 2 ; BiFC sort | Replicate 1 ; BiFC sort | Replicate 2

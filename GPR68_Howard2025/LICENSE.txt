@@ -1,0 +1,22 @@
+GPR68_Howard2025
+Data license: MIT (repository); MaveDB score set CC0 1.0
+License text: https://opensource.org/licenses/MIT
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Author GitHub repository matthewkarlhoward/GPR68_DMS_Analysis; also MaveDB urn:mavedb:00001207
+  https://github.com/matthewkarlhoward/GPR68_DMS_Analysis
+
+Article license: Elsevier open-access user licence (CC BY-NC-ND-equivalent terms for the article text)
+  http://www.elsevier.com/open-access/userlicense/1.0/
+
+Cite as:
+  Howard MK, Hoppe N, Huang XP, Mitrovic D, Billesbølle CB, Macdonald CB, Mehrotra E, Rockefeller Grimes P, Trinidad DD, Delemotte L, English JG, Coyote-Maestas W, et al. Molecular basis of proton sensing by G protein-coupled receptors. Cell. 2025;188(3):671-687.e20. doi:10.1016/j.cell.2024.11.036
+  https://doi.org/10.1016/j.cell.2024.11.036
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

@@ -1,0 +1,22 @@
+CCR5_Heredia2018
+Data license: CC0 1.0 (public domain dedication)
+License text: https://creativecommons.org/publicdomain/zero/1.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: MaveDB score sets urn:mavedb:00000047-a/-b/-c
+  https://www.mavedb.org/experiment-sets/urn:mavedb:00000047
+
+Article license: Oxford University Press standard publication reuse rights (The Journal of Immunology)
+  https://academic.oup.com/pages/standard-publication-reuse-rights
+
+Cite as:
+  Heredia JD, Park J, Brubaker RJ, Szymanski SK, Gill KS, Procko E. Mapping Interaction Sites on Human Chemokine Receptors by Deep Mutational Scanning. The Journal of Immunology. 2018;200(11):3825-3839. doi:10.4049/jimmunol.1800343
+  https://doi.org/10.4049/jimmunol.1800343
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

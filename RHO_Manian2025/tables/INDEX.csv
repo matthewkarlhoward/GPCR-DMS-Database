@@ -1,0 +1,3 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/mavedb_00001275-a-1.csv.gz,7246,8,MaveDB urn:mavedb:00001275-a-1 scores CSV,,75%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; score_se ; q-value ; variant_type
+tables/mavedb_00001275-a-2.csv.gz,7244,8,MaveDB urn:mavedb:00001275-a-2 scores CSV,,75%,none,accession ; hgvs_nt ; hgvs_splice ; hgvs_pro ; score ; score_se ; q-value ; variant_type

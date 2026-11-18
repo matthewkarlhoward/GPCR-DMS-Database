@@ -1,0 +1,2 @@
+table,rows,source_columns,from_file,what,with_generic_number,wt_mismatches,columns
+tables/McKee2021_TableS1.csv.gz,700,10,"JBC 2021 Table S1 (mmc1.pdf), parsed with pdftotext",all columns of Table S1; the +Ret/−Ret ratio is Penn 2020's data,100%,none,WT ; Position ; Mutant ; Intensity (+Ret)/Intensity (-Ret) ; Intensity (27°C)/Intensity (37°C) ; Rosetta ΔΔG (REU) ; Cα distance to retinal centroid (Å) ; Biological hydrophobicity ΔΔG (kcal/mol) ; 9-cis-retinal sensitivity ; Temperature sensitivity

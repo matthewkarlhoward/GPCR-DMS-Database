@@ -1,0 +1,21 @@
+OPRM1_Howard2026
+Data license: CC BY 4.0 (repository data licence); MaveDB score sets are CC0 1.0
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Author GitHub repository matthewkarlhoward/HaloTag-MOR_DMS_analysis (supplementary_table/); also MaveDB urn:mavedb:00001326
+  https://github.com/matthewkarlhoward/HaloTag-MOR_DMS_analysis
+
+Article license: CC BY 4.0 (bioRxiv preprint)
+
+Cite as:
+  Howard MK, Fine EJ, Srinivasan K, Richman DD, Freudenberg J, Weinberg Z, Rao J, Zou Z, Macdonald C, Grimes PR, Varga BR, Fraser JS, et al. Distinct activation mechanisms underlie ligand efficacy at a GPCR. bioRxiv. 2026. doi:10.64898/2026.10.12.758633
+  https://doi.org/10.64898/2026.10.12.758633
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

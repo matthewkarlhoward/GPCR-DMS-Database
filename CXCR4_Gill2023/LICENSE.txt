@@ -1,0 +1,21 @@
+CXCR4_Gill2023
+Data license: NCBI GEO: no restrictions on use or redistribution of the data; cite the source
+License text: https://www.ncbi.nlm.nih.gov/home/about/policies/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: GEO series GSE125426 (GSE125426_X4R5_BiFC_enrichment_ratios.xlsx)
+  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125426
+
+Article license: CC BY 4.0 (JBC; ASBMB open access)
+
+Cite as:
+  Gill KS, Mehta K, Heredia JD, Krishnamurthy VV, Zhang K, Procko E. Multiple mechanisms of self-association of chemokine receptors CXCR4 and CCR5 demonstrated by deep mutagenesis. Journal of Biological Chemistry. 2023;299(10):105229. doi:10.1016/j.jbc.2023.105229
+  https://doi.org/10.1016/j.jbc.2023.105229
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

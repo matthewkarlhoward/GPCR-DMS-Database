@@ -1,0 +1,21 @@
+RHO_McKee2021
+Data license: CC BY 4.0, as part of the open-access article
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: JBC supplementary Table S1 (PMC8649220 mmc1.pdf), parsed from the PDF table
+  https://doi.org/10.1016/j.jbc.2021.101359
+
+Article license: CC BY 4.0 (JBC; ASBMB open access)
+
+Cite as:
+  McKee AG, Kuntz CP, Ortega JT, Woods H, Most V, Roushar FJ, Meiler J, Jastrzebska B, Schlebach JP. Systematic profiling of temperature- and retinal-sensitive rhodopsin variants by deep mutational scanning. Journal of Biological Chemistry. 2021;297(6):101359. doi:10.1016/j.jbc.2021.101359
+  https://doi.org/10.1016/j.jbc.2021.101359
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

@@ -1,0 +1,21 @@
+GPR161_Howard2026
+Data license: CC BY 4.0 (repository LICENSE-DATA); repository code MIT; MaveDB score sets CC0 1.0
+License text: https://creativecommons.org/licenses/by/4.0/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: Author GitHub repository matthewkarlhoward/2026_GPR161_mutational_scan (data/scores); also MaveDB urn:mavedb:00001323 and Zenodo 23755947
+  https://github.com/matthewkarlhoward/2026_GPR161_mutational_scan
+
+Article license: CC BY 4.0 (bioRxiv preprint)
+
+Cite as:
+  Howard MK, Whiteman S, Grimes PR, Macdonald C, Manglik A, Coyote-Maestas W. Mapping the sequence determinants of constitutive activity in GPCRs. bioRxiv. 2026. doi:10.64898/2026.10.30.762644
+  https://doi.org/10.64898/2026.10.30.762644
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

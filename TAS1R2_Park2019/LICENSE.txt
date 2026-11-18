@@ -1,0 +1,21 @@
+TAS1R2_Park2019
+Data license: NCBI GEO: no restrictions on use or redistribution of the data; cite the source
+License text: https://www.ncbi.nlm.nih.gov/home/about/policies/
+Redistribution status: clear - An open licence explicitly permits redistribution of these numbers.
+
+Source of the data: GEO series GSE115751 (GSE115751_enrichment_ratios_T1R2.xlsx)
+  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115751
+
+Article license: CC BY 4.0 (JBC; ASBMB open access)
+
+Cite as:
+  Park J, Selvam B, Sanematsu K, Shigemura N, Shukla D, Procko E. Structural architecture of a dimeric class C GPCR based on co-trafficking of sweet taste receptor subunits. Journal of Biological Chemistry. 2019;294(13):4759-4774. doi:10.1074/jbc.RA118.006173
+  https://doi.org/10.1074/jbc.RA118.006173
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.
