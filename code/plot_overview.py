@@ -43,6 +43,7 @@ def style(cat, mave):
     return dict(facecolor=c, edgecolor=c) if mave else dict(facecolor="white", edgecolor=c, hatch="//////")
 
 
+KEY_X = 0.06  # left edge of the keys and headline, as a fraction of the panel width
 fig = plt.figure(figsize=(7.0, 3.4))
 gs = fig.add_gridspec(2, 2, width_ratios=[1.35, 1], hspace=0.45, wspace=0.42,
                       left=0.2, right=0.98, top=0.97, bottom=0.14)
@@ -82,13 +83,13 @@ axT.set_ylim(0, 1000)
 axT.set_xticks([2008, 2012, 2016, 2020, 2024])
 axT.set_ylabel("Cumulative variant\nmeasurements (thousands)")
 tot, mv = df.measurements.sum(), df.loc[df.in_mavedb, "measurements"].sum()
-axT.text(2008.3, 1000, f"{tot / 1000:.0f}k total; {mv / 1000:.0f}k ({mv / tot:.0%}) in MaveDB", va="top")
+axT.text(KEY_X, 1.0, f"{tot / 1000:.0f}k total; {mv / 1000:.0f}k ({mv / tot:.0%}) in MaveDB", va="top", transform=axT.transAxes)
 handles = [Patch(facecolor=COLOR[c], edgecolor=COLOR[c], label=NAME[c]) for c in ("dms", "panel", "ala")]
 handles += [Patch(facecolor="black", edgecolor="black", label="In MaveDB"),
             Patch(facecolor="white", edgecolor="black", hatch="//////", label="Not in MaveDB")]
 LEGEND = dict(handles=handles, loc="upper left", handlelength=1.6, handleheight=0.9,
               borderaxespad=0, labelspacing=0.4)
-axT.legend(bbox_to_anchor=(0.0, 0.88), **LEGEND)
+axT.legend(bbox_to_anchor=(KEY_X, 0.88), **LEGEND)
 
 # ---- bottom right: receptor scans per year ----------------------------------------------
 bottom = np.zeros(len(years))
@@ -105,7 +106,7 @@ axB.set_xticks([2008, 2012, 2016, 2020, 2024])
 axB.set_yticks(range(0, int(bottom.max()) + 2, 2))
 axB.set_ylabel("Receptor scans per year")
 axB.set_xlabel("Year published")
-axB.legend(bbox_to_anchor=(0.06, 1.0), **LEGEND)
+axB.legend(bbox_to_anchor=(KEY_X, 1.0), **LEGEND)
 
 FIG.mkdir(exist_ok=True)
 for ext in ("png", "svg", "pdf"):
