@@ -1,5 +1,6 @@
 {
   "title": "GPCR-DMS Database: raw per-variant GPCR mutational scanning data by study, aligned to GPCRdb numbering",
+  "version": "1.0.0",
   "upload_type": "dataset",
   "description": "<p>Per-variant measurements from 20 published GPCR studies (deep mutational scans, receptor-wide alanine scans and variant panels) across 13 human receptors, in 23 datasets (one folder per receptor per study). Each study keeps its original files unmodified (<code>source/</code>) plus every per-variant table as CSV (<code>tables/</code>) with all of the authors' columns, and every table additionally carries GPCRdb generic and Ballesteros-Weinstein residue numbers so positions can be compared across receptors.</p><p><strong>Licensing:</strong> every dataset was published by someone else and keeps its own license; there is no single license over the collection. The MIT license applies only to the compilation (scripts, column layout, GPCRdb join, documentation). Three datasets are non-commercial (RHO_Chen2026 CC BY-NC-ND 4.0; AGTR1_Boora2026 and PTGFR_Boora2026 CC BY-NC 4.0) and AGTR1_Cao2023 carries no stated reuse license. See LICENSE.md, NOTICE.md and each study's LICENSE.txt. Please cite the original paper for each dataset you use (REFERENCES.md), and GPCRdb.</p>",
   "creators": [

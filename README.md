@@ -12,8 +12,8 @@ The raw per-variant data from 20 published GPCR studies (deep mutational scans, 
 
 ## In each study folder
 - `source/`: the original files exactly as published (GitHub repos pinned to a commit; MaveDB, Zenodo, GEO, journal and bioRxiv supplements).
-- `tables/`: every per-variant table from those files as CSV, with all of the authors' columns. That includes replicate scores, standard errors, statistics, counts, curve fits and classifications. Five key columns go at the front:
-  - `variant`, `pos`, `wt_aa`, `mut_aa`
+- `tables/`: every per-variant table from those files as CSV, with all of the authors' columns. That includes replicate scores, standard errors, statistics, counts, curve fits and classifications. Eleven key columns go at the front:
+  - Variant: `receptor`, `variant`, `pos`, `wt_aa`, `mut_aa`
   - GPCRdb numbering: `gpcrdb_generic` (e.g. 3.50x50), `gpcrdb_x` (e.g. 3x50, for comparing receptors), `bw`, `segment`, `gpcrdb_aa`, `wt_matches_gpcrdb`
 - `tables/INDEX.csv`: each table's source file, row count and full column list.
 - `README.md`: citation, cells, library, method, what the main score means, and provenance.
