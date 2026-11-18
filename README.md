@@ -1,8 +1,10 @@
 # GPCR-DMS Database
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24355445.svg)](https://doi.org/10.5281/zenodo.24355445)
+
 An atlas of all existing GPCR mutational scanning data (that I can find). I will try to update as more data becomes available. Feel free to email matthewkarlhoward@gmail.com if you notice anything missing or incorrect.
 
-Always cite the original paper for each dataset you use. If you find this resource useful, please acknowledge it. This repo is archived on Zenodo and each GitHub release of this repository gets its own DOI.
+Always cite the original paper for each dataset you use. If you find this resource useful, please acknowledge it. This repo is archived on Zenodo and each GitHub release of this repository gets its own DOI. To cite the database, use [10.5281/zenodo.24355445](https://doi.org/10.5281/zenodo.24355445), which always resolves to the latest version.
 
 The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors.
 
