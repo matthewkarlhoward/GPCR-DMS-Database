@@ -4,7 +4,7 @@ GPCR mutational scanning data, by study.
 
 Archived on Zenodo: each GitHub release of this repository gets its own DOI. To cite it, use the "Cite this repository" button on GitHub (from `CITATION.cff`) or the DOI on the Zenodo record, and always cite the original paper for each dataset you use.
 
-The raw per-variant data from 22 GPCR deep mutational scans, alanine scans and variant panels, one folder per study (23 folders: Gill 2023 and Boora 2026 each split by receptor). Nothing is merged across studies. Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors. Built 2026-11-18.
+The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Nothing is merged across studies. Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors. Built 2026-11-18.
 
 ## In each study folder
 - `source/`: the original files exactly as published (GitHub repos pinned to a commit; MaveDB, Zenodo, GEO, journal and bioRxiv supplements).

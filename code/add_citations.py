@@ -349,8 +349,8 @@ message: >-
   and, if useful, this compilation.
 title: "GPCR mutational scanning: raw per-variant data by study, aligned to GPCRdb numbering"
 abstract: >-
-  Per-variant measurements from 22 published GPCR deep mutational scans, receptor-wide alanine
-  scans and variant panels across 13 human receptors, in {len(sids)} study folders. Each study keeps its data as
+  Per-variant measurements from 20 published GPCR studies (deep mutational scans, receptor-wide
+  alanine scans and variant panels) across 13 human receptors, in {len(sids)} datasets (one folder per receptor per study). Each study keeps its data as
   published, with its own license and citation; every table additionally carries GPCRdb generic and
   Ballesteros-Weinstein residue numbers.
 authors:
