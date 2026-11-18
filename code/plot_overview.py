@@ -86,8 +86,9 @@ axT.text(2008.3, 1000, f"{tot / 1000:.0f}k total; {mv / 1000:.0f}k ({mv / tot:.0
 handles = [Patch(facecolor=COLOR[c], edgecolor=COLOR[c], label=NAME[c]) for c in ("dms", "panel", "ala")]
 handles += [Patch(facecolor="black", edgecolor="black", label="In MaveDB"),
             Patch(facecolor="white", edgecolor="black", hatch="//////", label="Not in MaveDB")]
-axT.legend(handles=handles, loc="upper left", bbox_to_anchor=(0.0, 0.88), handlelength=1.6,
-           handleheight=0.9, borderaxespad=0, labelspacing=0.4)
+LEGEND = dict(handles=handles, loc="upper left", handlelength=1.6, handleheight=0.9,
+              borderaxespad=0, labelspacing=0.4)
+axT.legend(bbox_to_anchor=(0.0, 0.88), **LEGEND)
 
 # ---- bottom right: receptor scans per year ----------------------------------------------
 bottom = np.zeros(len(years))
@@ -104,6 +105,7 @@ axB.set_xticks([2008, 2012, 2016, 2020, 2024])
 axB.set_yticks(range(0, int(bottom.max()) + 2, 2))
 axB.set_ylabel("Receptor scans per year")
 axB.set_xlabel("Year published")
+axB.legend(bbox_to_anchor=(0.06, 1.0), **LEGEND)
 
 FIG.mkdir(exist_ok=True)
 for ext in ("png", "svg", "pdf"):
