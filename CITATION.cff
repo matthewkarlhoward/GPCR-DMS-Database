@@ -8,7 +8,8 @@ abstract: >-
   Per-variant measurements from 21 published GPCR studies (deep mutational scans, receptor-wide
   alanine scans and variant panels) across 14 human receptors, in 24 datasets (one folder per receptor per study). Each study keeps its data as
   published, with its own license and citation; every table additionally carries GPCRdb generic and
-  Ballesteros-Weinstein residue numbers.
+  Ballesteros-Weinstein residue numbers. A merged long table (merged/) puts every study's main score in
+  one file, with optional rescaled scores for comparing conditions.
 authors:
   - family-names: "Howard"
     given-names: "Matthew K."

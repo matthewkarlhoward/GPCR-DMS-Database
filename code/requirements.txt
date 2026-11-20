@@ -1,0 +1,4 @@
+# python >= 3.9; also needs pdftotext (poppler) on PATH
+pandas>=2.2
+openpyxl>=3.1
+pyarrow>=14

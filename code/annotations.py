@@ -118,6 +118,13 @@ STUDY = {
         score_definition="MaveDB score as deposited (trafficking score)",
         se_definition="score_se as deposited",
         source_url="MaveDB urn:mavedb:00001275"),
+    "CNR2_MoralesPastor2025": dict(
+        cell_system="HEK293T, individually transfected mutants",
+        library="Alanine scan of the full receptor (native Ala → Val). The paper reports 360 mutants; Supplementary Data 1 lists 359 (no row for position 298) plus a WT reference row",
+        method="Surface expression; Gαi2 activation (Rap1GAP effector translocation) and β-arrestin1 recruitment, both by ebBRET (EMTA biosensors), concentration–response with the agonist HU-210; curves fitted with a Hill slope of 1, averaged over biological triplicates",
+        score_definition="Surface expression in % WT; Emax and pEC50 for Gαi2 and β-arrestin1, raw and normalised (Emax corrected for expression and divided by WT; pEC50 given relative to WT, as described in the paper's methods); a coupling-profile class per mutant",
+        se_definition="none per mutant in this table (means of biological triplicates)",
+        source_url="Nat Commun Supplementary Data 1 (`41467_2025_60003_MOESM3_ESM.xlsx`)"),
     "RHO_Chen2026": dict(
         cell_system="see paper (cell-based multiphenotype assay)",
         library="~2,000 single-residue substitutions incl. stop",

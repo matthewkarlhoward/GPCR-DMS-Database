@@ -33,12 +33,12 @@ Positions in termini and long loops have no generic number.
 | `tables/MC4R-DMS8-Gq-unnormalized.csv.gz` | 46,431 | 7 | 75% | per-condition log2FC vs WT (Gq) |
 | `tables/MC4R-DMS8-Gq.csv.gz` | 39,798 | 8 | 75% | contrasts vs untreated (Gq) |
 | `tables/Supplementary-Table-S2-variant-classifications.csv.gz` | 220 | 7 | no positions | Supplementary Table S2: variant classifications |
-| `tables/dms11_combined.csv.gz` | 41,790 | 12 | 75% | full GLMM coefficient table, DMS11 |
-| `tables/dms11_combined.csv.gz` | 41,790 | 8 | 75% | marginal means, DMS11 |
-| `tables/dms5_combined.csv.gz` | 55,720 | 12 | 75% | full GLMM coefficient table, DMS5 |
-| `tables/dms5_combined.csv.gz` | 55,720 | 8 | 75% | marginal means, DMS5 |
-| `tables/dms8_combined.csv.gz` | 48,755 | 12 | 75% | full GLMM coefficient table, DMS8 |
-| `tables/dms8_combined.csv.gz` | 48,755 | 8 | 75% | marginal means, DMS8 |
+| `tables/dms11_combined_marginals.csv.gz` | 41,790 | 8 | 75% | marginal means, DMS11 |
+| `tables/dms11_combined_sumstats.csv.gz` | 42,122 | 12 | 75% | full GLMM coefficient table, DMS11 |
+| `tables/dms5_combined_marginals.csv.gz` | 55,720 | 8 | 75% | marginal means, DMS5 |
+| `tables/dms5_combined_sumstats.csv.gz` | 56,052 | 12 | 75% | full GLMM coefficient table, DMS5 |
+| `tables/dms8_combined_marginals.csv.gz` | 48,755 | 8 | 75% | marginal means, DMS8 |
+| `tables/dms8_combined_sumstats.csv.gz` | 49,087 | 12 | 75% | full GLMM coefficient table, DMS8 |
 | `tables/mc4r-dms.csv.gz` | 92,862 | 11 | 75% | processed aMSH/THIQ x Gs/Gq table used in the paper |
 
 WT residues that differ from GPCRdb: none

@@ -18,6 +18,7 @@ DOI = {
     "P2RY8_LaFlam2025": "10.1016/j.xgen.2025.100981",
     "RHO_Manian2025": "10.1126/sciadv.aef3518",
     "RHO_Chen2026": "10.1073/pnas.2624087123",
+    "CNR2_MoralesPastor2025": "10.1038/s41467-025-60003-0",
     "RHO_McKee2021": "10.1016/j.jbc.2021.101359",
     "RHO_Penn2020": "10.1126/sciadv.aay7505",
     "RHO_Roushar2022": "10.1016/j.jbc.2022.102266",
@@ -127,6 +128,14 @@ L = {
         data_license="CC0 1.0 (public domain dedication)",
         data_license_url="https://creativecommons.org/publicdomain/zero/1.0/",
         status="clear"),
+    "CNR2_MoralesPastor2025": dict(
+        article_license="CC BY-NC-ND 4.0 (Nature Communications)",
+        article_license_url="https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        data="Nat Commun Supplementary Data 1 (41467_2025_60003_MOESM3_ESM.xlsx)",
+        data_url="https://doi.org/10.1038/s41467-025-60003-0",
+        data_license="CC BY-NC-ND 4.0. Non-commercial use only; no derivatives of the article. The file in source/ is unmodified; the tables/ version adds columns and is therefore adapted — a commercial user, or anyone needing a derivative, should obtain permission from the authors / Springer Nature or use source/ directly",
+        data_license_url="https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        status="permissive-with-conditions"),
     "RHO_Chen2026": dict(
         article_license="CC BY-NC-ND 4.0 (PNAS)",
         article_license_url="https://creativecommons.org/licenses/by-nc-nd/4.0/",

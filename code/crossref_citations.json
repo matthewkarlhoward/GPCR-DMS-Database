@@ -1106,5 +1106,95 @@
   "pub": "Elsevier BV"
  },
  "10.5281/zenodo.15363336": "ERR SyntaxError: Unexpected token 'R', \"Resource not found.\" is not valid JSON",
- "10.5281/zenodo.14216036": "ERR SyntaxError: Unexpected token 'R', \"Resource not found.\" is not valid JSON"
+ "10.5281/zenodo.14216036": "ERR SyntaxError: Unexpected token 'R', \"Resource not found.\" is not valid JSON",
+ "10.1038/s41467-025-60003-0": {
+  "a": [
+   [
+    "Morales-Pastor",
+    "A"
+   ],
+   [
+    "Milju\u0161",
+    "T"
+   ],
+   [
+    "Dieguez-Eceolaza",
+    "M"
+   ],
+   [
+    "St\u0119pniewski",
+    "T M"
+   ],
+   [
+    "Ledesma-Martin",
+    "V"
+   ],
+   [
+    "Heydenreich",
+    "F M"
+   ],
+   [
+    "Flock",
+    "T"
+   ],
+   [
+    "Plouffe",
+    "B"
+   ],
+   [
+    "Le Gouill",
+    "C"
+   ],
+   [
+    "Duchaine",
+    "J"
+   ],
+   [
+    "Sykes",
+    "D A"
+   ],
+   [
+    "Nicholson",
+    "C"
+   ],
+   [
+    "Koers",
+    "E J"
+   ],
+   [
+    "Guba",
+    "W"
+   ],
+   [
+    "Rufer",
+    "A C"
+   ],
+   [
+    "Grether",
+    "U"
+   ],
+   [
+    "Bouvier",
+    "M"
+   ],
+   [
+    "Veprintsev",
+    "D B"
+   ],
+   [
+    "Selent",
+    "J"
+   ]
+  ],
+  "t": "Multiple intramolecular triggers converge to preferential G protein coupling in the CB2R",
+  "j": "Nature Communications",
+  "v": "16",
+  "i": "",
+  "p": "5265",
+  "y": 2025,
+  "lic": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "type": "journal-article",
+  "pub": "Springer Science and Business Media LLC",
+  "note": "transcribed from the published citation, not fetched from Crossref"
+ }
 }

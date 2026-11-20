@@ -4,7 +4,7 @@ CC BY and CC BY-NC require a statement of what was changed. This is that stateme
 every study folder; nothing study-specific was done beyond what is listed here.
 
 Compiled 2026-11-18 from 23 study folders, 83 source tables. `CNR2_MoralesPastor2025` (1 source
-table) was added on 2026-11-19 in the same way, by `code/build_cnr2_moralespastor2025.py`.
+table) was added on 2026-11-19 in the same way. All tables are rebuilt by `code/build.py`.
 
 ## `source/` — unchanged
 
@@ -35,6 +35,22 @@ renamed, filtered or recomputed.** What was done:
 
 `tables/INDEX.csv` in each folder lists every table, its row count, every column name, and which
 file in `source/` it came from.
+
+## `merged/` — changed, as follows
+
+`merged/gpcr_dms_long.*` gathers each study's main published score into one long table (one row per variant
+per condition). The published `score` and `score_se` are carried over unchanged. Added:
+
+1. **Rows chosen and reshaped.** One row per variant x condition, taking the score column the authors
+   present as their main result (the `score_type` and `source_file` columns say which). Rows with neither
+   a score nor a curve fit are dropped.
+2. **The same variant keys and GPCRdb numbering** as in `tables/`.
+3. **`assay_class`**, a grouping of the assays by the compiler.
+4. **`score_norm` and `score_rank`**, rescaled versions of `score` computed by the compiler
+   (WT-like = 0, null-like = -1; and the percentile within the condition). These are new values, not the
+   authors'. They are left empty for data under a no-derivatives license
+   (`RHO_Chen2026`, `CNR2_MoralesPastor2025`).
+5. **License columns** copied from `licenses.csv`.
 
 ## Study-level annotation
 

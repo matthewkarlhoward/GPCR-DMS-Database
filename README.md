@@ -12,6 +12,17 @@ The raw per-variant data from 21 published GPCR studies (deep mutational scans, 
 
 **Published GPCR variant measurements: about 915k in total, of which 510k (56%) are in MaveDB.** Left: variant × condition measurements per study (one variant scored under one condition, e.g. one ligand or dose). Top right: cumulative measurements by year published. Bottom right: receptor scans per year. Color shows the scan type; solid = in MaveDB, hatched = not in MaveDB. \* Count taken from the paper text: these studies released no per-variant score file, so they are not in this database (for Penn 2020, the released per-variant values are McKee 2021 Table S1). Counts: [`figures/gpcr_dms_measurements.csv`](figures/gpcr_dms_measurements.csv); script: [`code/plot_overview.py`](code/plot_overview.py); also as [SVG](figures/gpcr_dms_overview.svg) and [PDF](figures/gpcr_dms_overview.pdf).
 
+**To use everything at once, start with [`merged/`](merged/README.md).** It holds one long table (911,168 rows: one row per variant per condition) with every study's main published score, GPCRdb numbering, an assay class, and optional rescaled scores for comparing conditions. The study folders keep the full detail: every table and every column the authors released.
+
+## Merged table (`merged/`)
+- `gpcr_dms_long.parquet` / `gpcr_dms_long.csv.gz`: the same table in two formats.
+  - `score`, `score_se`: as published, in each study's own units.
+  - `score_norm`: WT-like = 0, null-like = −1, where the condition has both anchors (about 30% of rows).
+  - `score_rank`: percentile within the condition, for every row.
+  - `data_license`, `redistribution_status`: filter out non-commercial data in one step.
+- `conditions.csv`: one row per study × assay × condition, with the normalisation anchors and why a condition was or was not normalised.
+- `README.md`: every column, the normalisation rules, and per-study coverage.
+
 ## In each study folder
 - `source/`: the original files exactly as published (GitHub repos pinned to a commit; MaveDB, Zenodo, GEO, journal and bioRxiv supplements).
 - `tables/`: every per-variant table from those files as CSV, with all of the authors' columns. That includes replicate scores, standard errors, statistics, counts, curve fits and classifications. Eleven key columns go at the front:
@@ -69,6 +80,16 @@ The study WT residues agree with GPCRdb at every position except:
   - Tate-lab thermostability alanine scans (β1AR, A2AR, NTS1)
   - Okuta 2016 ETB
   - Scott 2024 Rho
+
+## Rebuilding
+The data files (every `<study>/tables/` and `merged/`) are generated from the files in `<study>/source/` and `gpcrdb_residue_numbering.csv`. Nothing is downloaded. The documentation (study `README.md` and `LICENSE.txt`, `studies.csv`, `licenses.csv`, `LICENSE.md`, `NOTICE.md`, `REFERENCES.md`, `CITATION.cff`, this README, `.zenodo.json`) is maintained by hand; the merged table takes its study labels from `studies.csv`.
+
+```bash
+pip install -r code/requirements.txt   # plus pdftotext (poppler), e.g. brew install poppler
+python code/build.py --check           # rebuild into build/ and compare with the committed data files
+```
+
+`--check` exits non-zero if any data file would change, or if a committed table is no longer produced. `--install` writes the rebuild over the committed data files. To add a study, add a loader to `code/build_master.py` (rows for `merged/`) and to `code/extract_sources.py` (its `tables/`), plus its entries in `code/annotations.py` and `code/licenses.py`.
 
 ## Citation and licensing
 

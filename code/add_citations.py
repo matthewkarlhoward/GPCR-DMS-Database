@@ -1,4 +1,7 @@
-"""Add full citations and individually stated licensing to the by-study package.
+"""Draft full citations and individually stated licensing for the by-study package, into build/.
+
+Run after `python code/build.py`. The committed versions of these files are maintained by hand; use this
+draft as a starting point when adding a study.
 
 Writes:
   <study>/README.md     "Citation & license" section appended
@@ -14,9 +17,9 @@ import pandas as pd
 from pathlib import Path
 from licenses import DOI, L, STATUS_NOTE, GPCRDB, MAVEDB_CITE
 
-ROOT = Path(__file__).parent
-OUT = ROOT / "deliver_by_study" / "gpcr_dms_raw_by_study"
-CR = json.loads((ROOT / "reference/crossref_citations.json").read_text())
+from paths import OUT, CROSSREF
+
+CR = json.loads(CROSSREF.read_text())
 TODAY = "2026-11-18"
 
 
@@ -58,9 +61,7 @@ def lic_line(k, v, url_key=None):
     return f"{v}" + (f" ({u})" if u else "")
 
 
-meta = (pd.read_parquet(ROOT / "gpcr_mutational_master.parquet",
-                        columns=["study_id", "receptor", "gene", "study", "year", "journal", "doi"])
-        .drop_duplicates("study_id").set_index("study_id"))
+meta = pd.read_csv(OUT / "study_meta.csv").set_index("study_id")   # written by build.py
 sids = sorted(meta.index)
 
 rows = []
@@ -133,6 +134,8 @@ NEW =["citation", "article_license", "data_source", "data_license", "data_licens
        "redistribution_status"]
 s = s.drop(columns=[c for c in NEW if c in s.columns]).merge(
     LT[["study_id"] + NEW], on="study_id", how="left")
+s = s[["study_id", "receptor", "gene", "uniprot", "study", "journal", "year", "scan_type", "in_mavedb", "tables",
+       "source_files", "doi"] + NEW]
 s.to_csv(OUT / "studies.csv", index=False)
 
 # ---------------- LICENSE.md ----------------
@@ -261,6 +264,22 @@ renamed, filtered or recomputed.** What was done:
 `tables/INDEX.csv` in each folder lists every table, its row count, every column name, and which
 file in `source/` it came from.
 
+## `merged/` — changed, as follows
+
+`merged/gpcr_dms_long.*` gathers each study's main published score into one long table (one row per variant
+per condition). The published `score` and `score_se` are carried over unchanged. Added:
+
+1. **Rows chosen and reshaped.** One row per variant x condition, taking the score column the authors
+   present as their main result (the `score_type` and `source_file` columns say which). Rows with neither
+   a score nor a curve fit are dropped.
+2. **The same variant keys and GPCRdb numbering** as in `tables/`.
+3. **`assay_class`**, a grouping of the assays by the compiler.
+4. **`score_norm` and `score_rank`**, rescaled versions of `score` computed by the compiler
+   (WT-like = 0, null-like = -1; and the percentile within the condition). These are new values, not the
+   authors'. They are left empty for data under a no-derivatives license
+   (`RHO_Chen2026`, `CNR2_MoralesPastor2025`).
+5. **License columns** copied from `licenses.csv`.
+
 ## Study-level annotation
 
 Each study `README.md` states the cell system, library, method, what the score means and how
@@ -347,18 +366,21 @@ message: >-
   This bundle redistributes other people's data. Please cite the original paper for each dataset you
   use (see REFERENCES.md and each study's LICENSE.txt), GPCRdb for the generic residue numbering,
   and, if useful, this compilation.
-title: "GPCR mutational scanning: raw per-variant data by study, aligned to GPCRdb numbering"
+title: "GPCR-DMS Database: raw per-variant GPCR mutational scanning data by study, aligned to GPCRdb numbering"
 abstract: >-
   Per-variant measurements from 21 published GPCR studies (deep mutational scans, receptor-wide
   alanine scans and variant panels) across 14 human receptors, in {len(sids)} datasets (one folder per receptor per study). Each study keeps its data as
   published, with its own license and citation; every table additionally carries GPCRdb generic and
-  Ballesteros-Weinstein residue numbers.
+  Ballesteros-Weinstein residue numbers. A merged long table (merged/) puts every study's main score in
+  one file, with optional rescaled scores for comparing conditions.
 authors:
   - family-names: "Howard"
     given-names: "Matthew K."
     affiliation: "University of California, San Francisco"
 date-released: "{TODAY}"
 license: MIT
+repository-code: "https://github.com/matthewkarlhoward/GPCR-DMS-Database"
+type: dataset
 keywords:
   - GPCR
   - deep mutational scanning
