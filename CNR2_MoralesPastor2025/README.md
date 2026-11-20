@@ -35,7 +35,7 @@ Notes on the values, all left as published:
 - Where a mutant gave no measurable response, the authors entered 0 for its raw Emax and pEC50; the normalised pEC50 of those mutants then equals the WT pEC50 (e.g. D130A, Gαi2). Seven mutants have a blank pEC50 for one pathway.
 - The sheet has one cell outside the table with no header (Q8 = 35). It is kept as `unlabelled_col_Q`.
 
-`tables/INDEX.csv` lists every column of every table. The table is rebuilt from `source/` by `../code/build_cnr2_moralespastor2025.py`.
+`tables/INDEX.csv` lists every column of every table. The table is rebuilt from `source/` by `../code/build.py`, like every other study's.
 
 ## source/
 Original files, unmodified: `41467_2025_60003_MOESM3_ESM.xlsx`

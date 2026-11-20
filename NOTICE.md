@@ -4,7 +4,7 @@ CC BY and CC BY-NC require a statement of what was changed. This is that stateme
 every study folder; nothing study-specific was done beyond what is listed here.
 
 Compiled 2026-11-18 from 23 study folders, 83 source tables. `CNR2_MoralesPastor2025` (1 source
-table) was added on 2026-11-19 in the same way, by `code/build_cnr2_moralespastor2025.py`.
+table) was added on 2026-11-19 in the same way. All tables are rebuilt by `code/build.py`.
 
 ## `source/` — unchanged
 
