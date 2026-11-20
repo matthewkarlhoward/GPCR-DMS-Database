@@ -48,7 +48,8 @@ per condition). The published `score` and `score_se` are carried over unchanged.
 3. **`assay_class`**, a grouping of the assays by the compiler.
 4. **`score_norm` and `score_rank`**, rescaled versions of `score` computed by the compiler
    (WT-like = 0, null-like = -1; and the percentile within the condition). These are new values, not the
-   authors'. They are left empty for data under a no-derivatives license (`RHO_Chen2026`).
+   authors'. They are left empty for data under a no-derivatives license
+   (`RHO_Chen2026`, `CNR2_MoralesPastor2025`).
 5. **License columns** copied from `licenses.csv`.
 
 ## Study-level annotation

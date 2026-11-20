@@ -1,12 +1,16 @@
-"""Rebuild every derived file in the repo from the authors' originals in <study_id>/source/.
+"""Rebuild the data files in the repo from the authors' originals in <study_id>/source/.
 
   python code/build.py            build into build/ (git-ignored)
-  python code/build.py --check    build, then compare with the committed files; exit 1 if anything differs
-  python code/build.py --install  build, then copy the result over the committed files
+  python code/build.py --check    build, then compare the data files with the committed ones; exit 1 if any differ
+  python code/build.py --install  build, then copy the data files over the committed ones
 
-Steps: build_master (one long table) -> extract_sources (every source table, all columns) -> package_by_study
-(GPCRdb columns, per-study README and INDEX) -> add_citations (licences, citations) -> build_merged (merged/).
-Hand-written files (README.md, .zenodo.json, code/) are never touched.
+Data files: every <study_id>/tables/ (the CSVs and INDEX.csv) and merged/. Steps: build_master (one long table)
+-> extract_sources (every source table, all columns) -> package_by_study (GPCRdb columns, INDEX) -> build_merged.
+
+The documentation (study README.md and LICENSE.txt, studies.csv, licenses.csv, LICENSE.md, NOTICE.md,
+REFERENCES.md, CITATION.cff, README.md, .zenodo.json) is maintained by hand and never written here. build/ also
+gets a draft of each study README's tables section, for reference. add_citations.py drafts the licence and
+citation files into build/ when run on its own after a build.
 Needs: python >= 3.9, pandas >= 2.2, openpyxl, pyarrow, and pdftotext (poppler) on PATH.
 """
 import argparse, gzip, os, runpy, shutil, sys
@@ -24,7 +28,10 @@ def content(p):
 
 
 def generated():
-    return sorted(p for p in OUT.rglob("*") if p.is_file() and "_stage" not in p.parts)
+    """The data files of the build: <study_id>/tables/* and merged/*."""
+    def is_data(rel):
+        return (len(rel.parts) == 3 and rel.parts[1] == "tables") or rel.parts[0] == "merged"
+    return sorted(p for p in OUT.rglob("*") if p.is_file() and is_data(p.relative_to(OUT)))
 
 
 def compare():
@@ -57,18 +64,17 @@ def main():
     (OUT / "_stage").mkdir(parents=True)
 
     import build_master, extract_sources, build_merged
-    print("1/5 master table")
+    print("1/4 master table")
     m = build_master.build()
     cols = ["study_id", "receptor", "gene", "uniprot", "study", "year", "journal", "doi", "scan_type", "in_mavedb"]
     m[cols].drop_duplicates("study_id").to_csv(OUT / "_stage" / "study_meta.csv", index=False)
-    print("2/5 source tables")
+    print("2/4 source tables")
     extract_sources.run()
-    print("3/5 per-study tables, GPCRdb numbering, READMEs")
+    print("3/4 per-study tables, GPCRdb numbering")
     runpy.run_path(str(CODE / "package_by_study.py"), run_name="__main__")
-    print("4/5 citations and licences")
-    runpy.run_path(str(CODE / "add_citations.py"), run_name="__main__")
-    print("5/5 merged long table")
+    print("4/4 merged long table")
     build_merged.write(m, OUT / "merged")
+    (OUT / "_stage" / "study_meta.csv").replace(OUT / "study_meta.csv")   # kept for add_citations.py
     shutil.rmtree(OUT / "_stage")
 
     if a.check or a.install:

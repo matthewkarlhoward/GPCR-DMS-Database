@@ -12,7 +12,7 @@ The raw per-variant data from 21 published GPCR studies (deep mutational scans, 
 
 **Published GPCR variant measurements: about 915k in total, of which 510k (56%) are in MaveDB.** Left: variant × condition measurements per study (one variant scored under one condition, e.g. one ligand or dose). Top right: cumulative measurements by year published. Bottom right: receptor scans per year. Color shows the scan type; solid = in MaveDB, hatched = not in MaveDB. \* Count taken from the paper text: these studies released no per-variant score file, so they are not in this database (for Penn 2020, the released per-variant values are McKee 2021 Table S1). Counts: [`figures/gpcr_dms_measurements.csv`](figures/gpcr_dms_measurements.csv); script: [`code/plot_overview.py`](code/plot_overview.py); also as [SVG](figures/gpcr_dms_overview.svg) and [PDF](figures/gpcr_dms_overview.pdf).
 
-**To use everything at once, start with [`merged/`](merged/README.md).** It holds one long table (910,088 rows: one row per variant per condition) with every study's main published score, GPCRdb numbering, an assay class, and optional rescaled scores for comparing conditions. The study folders keep the full detail: every table and every column the authors released.
+**To use everything at once, start with [`merged/`](merged/README.md).** It holds one long table (911,168 rows: one row per variant per condition) with every study's main published score, GPCRdb numbering, an assay class, and optional rescaled scores for comparing conditions. The study folders keep the full detail: every table and every column the authors released.
 
 ## Merged table (`merged/`)
 - `gpcr_dms_long.parquet` / `gpcr_dms_long.csv.gz`: the same table in two formats.
@@ -82,14 +82,14 @@ The study WT residues agree with GPCRdb at every position except:
   - Scott 2024 Rho
 
 ## Rebuilding
-Every derived file (`tables/`, each study's `README.md` and `LICENSE.txt`, `studies.csv`, `licenses.csv`, `LICENSE.md`, `NOTICE.md`, `REFERENCES.md`, `CITATION.cff`, `merged/`) is generated from the files in `<study>/source/` and `gpcrdb_residue_numbering.csv`. Nothing is downloaded. This README and `.zenodo.json` are written by hand.
+The data files (every `<study>/tables/` and `merged/`) are generated from the files in `<study>/source/` and `gpcrdb_residue_numbering.csv`. Nothing is downloaded. The documentation (study `README.md` and `LICENSE.txt`, `studies.csv`, `licenses.csv`, `LICENSE.md`, `NOTICE.md`, `REFERENCES.md`, `CITATION.cff`, this README, `.zenodo.json`) is maintained by hand; the merged table takes its study labels from `studies.csv`.
 
 ```bash
 pip install -r code/requirements.txt   # plus pdftotext (poppler), e.g. brew install poppler
-python code/build.py --check           # rebuild into build/ and compare with the committed files
+python code/build.py --check           # rebuild into build/ and compare with the committed data files
 ```
 
-`--check` exits non-zero if any file would change, or if a committed table is no longer produced. `--install` writes the rebuild over the committed files. The steps are in `code/build.py`.
+`--check` exits non-zero if any data file would change, or if a committed table is no longer produced. `--install` writes the rebuild over the committed data files. To add a study, add a loader to `code/build_master.py` (rows for `merged/`) and to `code/extract_sources.py` (its `tables/`), plus its entries in `code/annotations.py` and `code/licenses.py`.
 
 ## Citation and licensing
 

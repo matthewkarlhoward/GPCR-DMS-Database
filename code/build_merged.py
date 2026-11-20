@@ -150,6 +150,8 @@ COLUMN_DOC = [
 
 def readme(m, cond):
     ok = cond.norm_method.eq("WT = 0, null = -1")
+    nd = sorted(m.loc[m.data_license.str.contains("-ND", regex=False), "study_id"].unique())
+    nd_list = " and ".join(f"`{s}`" for s in nd)
     per = m.groupby("study_id").agg(receptor=("receptor", "first"), rows=("score", "size"))
     per = per.join(cond.assign(ok=ok).groupby("study_id").agg(conditions=("ok", "size"), normed=("ok", "sum")))
     why = (cond[~ok].groupby("study_id").norm_method
@@ -200,8 +202,8 @@ scans have neither, so those are not normalised. Their published scores are alre
 (DIMPLE, P2Y8) or expressed relative to WT (alanine scans). `conditions.csv` lists every condition with its anchors,
 anchor counts, separation and outcome.
 
-`RHO_Chen2026` is CC BY-NC-ND 4.0. Its published scores are included as in `tables/`, but no rescaled version of
-them is distributed (`score_norm` and `score_rank` are empty).
+{nd_list} {"is" if len(nd) == 1 else "are"} CC BY-NC-ND 4.0 (no derivatives). Their published scores are included as in
+`tables/`, but no rescaled version of them is distributed (`score_norm` and `score_rank` are empty).
 
 | study | receptor | rows | conditions with `score_norm` | why not, for the rest |
 |---|---|---|---|---|
@@ -215,6 +217,9 @@ them is distributed (`score_norm` and `score_rank` are empty).
   no CRC values.
 - β2AR (Jones 2020) WT residues follow the construct, which carries the common G16 / E27 haplotype.
 - AT1R position 160 is G in Cao 2023 and S in Boora 2026; both are kept as published.
+- CB2 (Morales-Pastor 2025): Supplementary Data 1 has 359 of the paper's 360 mutants (no row for position 298).
+  `score` is the expression-corrected Emax relative to WT; `ec50_log` is the negated raw pEC50, empty where the
+  authors entered 0 for a mutant with no response.
 - Not compiled, because no per-variant numbers were released: Tate-lab thermostability alanine scans (β1AR,
   A2AR, NTS1), Okuta 2016 ETB, Scott 2024 Rho.
 

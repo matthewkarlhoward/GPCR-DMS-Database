@@ -1,4 +1,7 @@
-"""Add full citations and individually stated licensing to the by-study package.
+"""Draft full citations and individually stated licensing for the by-study package, into build/.
+
+Run after `python code/build.py`. The committed versions of these files are maintained by hand; use this
+draft as a starting point when adding a study.
 
 Writes:
   <study>/README.md     "Citation & license" section appended
@@ -58,7 +61,7 @@ def lic_line(k, v, url_key=None):
     return f"{v}" + (f" ({u})" if u else "")
 
 
-meta = pd.read_csv(OUT / "_stage" / "study_meta.csv").set_index("study_id")
+meta = pd.read_csv(OUT / "study_meta.csv").set_index("study_id")   # written by build.py
 sids = sorted(meta.index)
 
 rows = []
@@ -273,7 +276,8 @@ per condition). The published `score` and `score_se` are carried over unchanged.
 3. **`assay_class`**, a grouping of the assays by the compiler.
 4. **`score_norm` and `score_rank`**, rescaled versions of `score` computed by the compiler
    (WT-like = 0, null-like = -1; and the percentile within the condition). These are new values, not the
-   authors'. They are left empty for data under a no-derivatives license (`RHO_Chen2026`).
+   authors'. They are left empty for data under a no-derivatives license
+   (`RHO_Chen2026`, `CNR2_MoralesPastor2025`).
 5. **License columns** copied from `licenses.csv`.
 
 ## Study-level annotation

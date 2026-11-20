@@ -11,7 +11,7 @@ import re, subprocess
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from build_master import split_var, parse_hgvs_pro, jones_wt, AA3
+from build_master import split_var, parse_hgvs_pro, jones_wt, cnr2_sheet, AA3
 from paths import OUT as BUILD, src
 
 OUT = BUILD / "_stage"
@@ -59,7 +59,9 @@ def keys_from_hgvs_paren(h):
 
 def emit(sid, name, df, variant, pos, wt, mut, src, note=""):
     df = df.reset_index(drop=True).copy()
-    front = pd.DataFrame({"variant": list(variant), "pos": list(pos), "wt_aa": list(wt), "mut_aa": list(mut)})
+    # a nullable-integer position column (CB2: WT row has none) stays integer instead of turning into floats
+    pos = pos.reset_index(drop=True) if isinstance(pos, pd.Series) and str(pos.dtype) == "Int64" else list(pos)
+    front = pd.DataFrame({"variant": list(variant), "pos": pos, "wt_aa": list(wt), "mut_aa": list(mut)})
     df = pd.concat([front, df.drop(columns=[c for c in front.columns if c in df.columns])], axis=1)
     d = OUT / sid / "source_tables"
     d.mkdir(parents=True, exist_ok=True)
@@ -293,6 +295,12 @@ def run():
         names = names[names.ne("nan")]
         pos, wt, mut = keys_from_names(names.str.replace(r"\*+$", "", regex=True))
         emit(sid, f"Boora2026_{label.replace(' ', '')}", d, names, pos, wt, mut, f"bioRxiv {label} ({fn.replace('boora_', '')})", "all columns incl. FDR tests and effect classes")
+    # ---------------- Morales-Pastor CB2 (Supplementary Data 1)
+    d, k = cnr2_sheet()
+    emit("CNR2_MoralesPastor2025", "MoralesPastor2025_SupplementaryData1", d, k.variant, k.pos, k.wt_aa, k.mut_aa,
+         "Nat Commun Supplementary Data 1 (41467_2025_60003_MOESM3_ESM.xlsx)",
+         "per-mutant surface expression, Emax correction factors, raw and normalised Gαi2 / β-arrestin1 Emax and pEC50 "
+         "(HU-210), MD-simulated flag, coupling profile; includes the WT reference row")
     idx = pd.DataFrame(INDEX)
     for sid, g in idx.groupby("study_id"):
         g.drop(columns="study_id").to_csv(OUT / sid / "source_tables" / "INDEX.csv", index=False)

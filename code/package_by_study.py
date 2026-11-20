@@ -20,6 +20,10 @@ R.to_csv(OUT / "gpcrdb_residue_numbering.csv", index=False)
 meta = pd.read_csv(SRC / "study_meta.csv").set_index("study_id")
 idx = pd.read_csv(SRC / "source_tables_index.csv")
 idx = idx.assign(_name=idx.table.map(lambda x: Path(x).name)).sort_values(["study_id", "_name"], kind="stable")
+# Studies first released by their own one-step script (CB2): staged floats are read back exactly, and `pos` stays
+# integer where some rows have no position. The other studies were released through the staging CSV with the default
+# float parser and with float positions (e.g. 2.0) wherever a column has gaps, and are kept that way.
+ONE_STEP = {"CNR2_MoralesPastor2025"}
 GCOLS = ["gpcrdb_generic", "gpcrdb_x", "bw", "segment", "gpcrdb_aa"]
 
 summary = []
@@ -30,8 +34,10 @@ for sid in sorted(meta.index):
     r = R[R.uniprot.eq(m.uniprot)].set_index("pos")
     rows = []
     for t in idx[idx.study_id.eq(sid)].itertuples():
-        df = pd.read_csv(SRC / sid / t.table, low_memory=False)
+        df = pd.read_csv(SRC / sid / t.table, low_memory=False, float_precision="round_trip" if sid in ONE_STEP else None)
         pos = pd.to_numeric(df["pos"], errors="coerce")
+        if sid in ONE_STEP:
+            df["pos"] = pos.astype("Int64")
         g = r.reindex(pos)[GCOLS].reset_index(drop=True)
         wt = df["wt_aa"].astype("string")
         g["wt_matches_gpcrdb"] = (wt == g.gpcrdb_aa.astype("string")).where(wt.notna() & g.gpcrdb_aa.notna())

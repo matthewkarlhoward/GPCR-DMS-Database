@@ -672,10 +672,75 @@ def boora_2026():
     return pd.concat(out)
 
 
+def cnr2_sheet():
+    """CB2 Supplementary Data 1 as published, plus variant keys.
+
+    The two header rows are joined with ' | ', the group label carried across its merged cells; every row and
+    column is kept, including the WT reference row and the one stray cell with no header (`unlabelled_col_Q`).
+    """
+    import openpyxl
+    ws = openpyxl.load_workbook(src("CNR2_MoralesPastor2025", "41467_2025_60003_MOESM3_ESM.xlsx"), data_only=True).worksheets[0]
+    rows = [list(r) for r in ws.iter_rows(values_only=True)]
+    ncol = max(len(r) for r in rows)
+    rows = [r + [None] * (ncol - len(r)) for r in rows]
+    group = list(rows[0])
+    for rng in ws.merged_cells.ranges:
+        if rng.min_row == 1:
+            for c in range(rng.min_col, rng.max_col + 1):
+                group[c - 1] = rows[0][rng.min_col - 1]
+    names = []
+    for j in range(ncol):
+        g, n = group[j], rows[1][j]
+        if n is None and g is None:
+            n = f"unlabelled_col_{openpyxl.utils.get_column_letter(j + 1)}"
+        names.append(" | ".join(str(x) for x in (g, n) if x is not None))
+    body = [r for r in rows[2:] if any(c is not None for c in r)]
+    d = pd.DataFrame(body, columns=names)
+    d = d.loc[:, [c for c in d.columns if not (c.startswith("unlabelled_col_") and d[c].isna().all())]]
+
+    def parse(m):
+        s = str(m)
+        if s.lower() == "wt":
+            return "WT", None, None, None
+        w, p, a = re.fullmatch(r"([A-Z])(\d+)([A-Z])", s).groups()
+        return s, int(p), w, a
+    keys = pd.DataFrame([parse(m) for m in d["mutant"]], columns=["variant", "pos", "wt_aa", "mut_aa"])
+    keys["pos"] = keys["pos"].astype("Int64")
+    return d, keys
+
+
+def cb2_morales_pastor_2025():
+    d, keys = cnr2_sheet()
+    keys = keys.copy()
+    keys["mut_class"] = np.where(keys.variant.eq("WT"), "wt_reference", None)
+    out = []
+    e = keys.copy()
+    e["score"] = pd.to_numeric(d["%wt expression"], errors="coerce").values
+    e["condition"], e["assay"], e["score_type"] = "surface expression", "surface expression", "surface expression, % WT"
+    out.append(e)
+    for path, cond, assay in [("Gi2", "Gαi2 activation, HU-210 CRC", "Gαi2 activation (ebBRET, Rap1GAP translocation), CRC"),
+                              ("bArr1", "β-arrestin1 recruitment, HU-210 CRC", "β-arrestin1 recruitment (ebBRET), CRC")]:
+        x = keys.copy()
+        emax = pd.to_numeric(d[f"normalised | {path} Emax"], errors="coerce").values
+        pec50 = pd.to_numeric(d[f"raw | {path} pEC50"], errors="coerce")
+        x["score"], x["emax"] = emax, emax
+        x["ec50_log"] = (-pec50.where(pec50 > 0)).values      # the authors enter 0 where there was no response
+        x["condition"], x["assay"], x["ligand"] = cond, assay, "HU-210"
+        x["score_type"] = ("Emax corrected for expression and divided by WT (Supplementary Data 1 'normalised'); "
+                           "ec50_log = -raw pEC50, empty where the authors entered 0 (no response)")
+        out.append(x)
+    df = pd.concat(out)
+    df = df[df.score.notna() | df.ec50_log.notna()]
+    df["source_file"] = "Nat Commun Supplementary Data 1 (41467_2025_60003_MOESM3_ESM.xlsx)"
+    return finish(df, dict(study_id="CNR2_MoralesPastor2025", receptor="CB2", gene="CNR2", uniprot="P34972",
+                           study="Morales-Pastor 2025 (Selent)", year=2025, journal="Nat Commun",
+                           doi="10.1038/s41467-025-60003-0", scan_type="alanine scan", in_mavedb="no"))
+
+
 LOADERS = [mor_howard_2026, gpr68_howard_2025, gpr161_howard_2026, mc4r_howard_2025, adrb2_jones_2020_final,
            mavedb_sets, t1r2_park_2019, cxcr4_ccr5_gill_2023, v2r_mighell_2025, adrb2_mighell_maps_2025,
            adrb2_heydenreich_2023, p2ry8_laflam_2025, rho_chen_2026, rho_mckee_penn, rho_roushar_2022,
-           at1r_cao_2023, boora_2026]
+           at1r_cao_2023, boora_2026, cb2_morales_pastor_2025]
 
 def build(only=(), verbose=True):
     """Run every loader (or only the named ones) and return the long table. A missing source file is an error."""
@@ -689,6 +754,10 @@ def build(only=(), verbose=True):
             print(f"  {f.__name__:28s} {len(d):>8,} rows  {d.condition.nunique():>3} conditions  "
                   f"{d.groupby(['pos','mut_aa']).ngroups:>6,} variants")
     m = pd.concat(parts, ignore_index=True)
+    # study labels (e.g. "Cao 2023 (Laporte)") are maintained by hand in studies.csv; use them when it lists the study
+    from paths import REPO
+    labels = pd.read_csv(REPO / "studies.csv").set_index("study_id").study
+    m["study"] = m.study_id.map(labels).fillna(m.study)
     if verbose:
         print("  total", f"{len(m):,}")
     return m
