@@ -3,7 +3,8 @@
 CC BY and CC BY-NC require a statement of what was changed. This is that statement. It applies to
 every study folder; nothing study-specific was done beyond what is listed here.
 
-Compiled 2026-11-18 from 23 study folders, 83 source tables.
+Compiled 2026-11-18 from 23 study folders, 83 source tables. `CNR2_MoralesPastor2025` (1 source
+table) was added on 2026-11-19 in the same way, by `code/build_cnr2_moralespastor2025.py`.
 
 ## `source/` — unchanged
 
@@ -26,7 +27,7 @@ renamed, filtered or recomputed.** What was done:
    the authors' own variant identifier. The original identifier column is still there, untouched.
 4. **GPCRdb numbering added**: `gpcrdb_generic`, `gpcrdb_x`, `bw`, `segment`, `gpcrdb_aa`,
    `wt_matches_gpcrdb`. These are a join on `pos` against the GPCRdb residue table in
-   `gpcrdb_residue_numbering.csv` (pulled 2026-11-18), not anything derived from the authors' data.
+   `gpcrdb_residue_numbering.csv` (pulled 2026-11-18; CB2 added 2026-11-19), not anything derived from the authors' data.
    `wt_matches_gpcrdb` flags the handful of positions where a study's wild-type residue differs
    from GPCRdb — those are left as published and flagged, never corrected.
 5. **Nothing removed.** Every column of every source table is present. Sequencing read counts were

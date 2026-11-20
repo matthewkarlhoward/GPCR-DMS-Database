@@ -5,17 +5,17 @@ message: >-
   and, if useful, this compilation.
 title: "GPCR-DMS Database: raw per-variant GPCR mutational scanning data by study, aligned to GPCRdb numbering"
 abstract: >-
-  Per-variant measurements from 20 published GPCR studies (deep mutational scans, receptor-wide
-  alanine scans and variant panels) across 13 human receptors, in 23 datasets (one folder per receptor per study). Each study keeps its data as
+  Per-variant measurements from 21 published GPCR studies (deep mutational scans, receptor-wide
+  alanine scans and variant panels) across 14 human receptors, in 24 datasets (one folder per receptor per study). Each study keeps its data as
   published, with its own license and citation; every table additionally carries GPCRdb generic and
   Ballesteros-Weinstein residue numbers.
 authors:
   - family-names: "Howard"
     given-names: "Matthew K."
     affiliation: "University of California, San Francisco"
-version: "1.0.0"
+version: "1.1.0"
 doi: "10.5281/zenodo.24355445"
-date-released: "2026-11-18"
+date-released: "2026-11-19"
 license: MIT
 repository-code: "https://github.com/matthewkarlhoward/GPCR-DMS-Database"
 type: dataset
@@ -160,6 +160,50 @@ references:
         given-names: "Taylor L."
       - family-names: "Lehner"
         given-names: "Ben"
+  - type: article
+    title: "Multiple intramolecular triggers converge to preferential G protein coupling in the CB2R"
+    doi: "10.1038/s41467-025-60003-0"
+    year: 2025
+    journal: "Nature Communications"
+    authors:
+      - family-names: "Morales-Pastor"
+        given-names: "Adrian"
+      - family-names: "Miljuš"
+        given-names: "Tamara"
+      - family-names: "Dieguez-Eceolaza"
+        given-names: "Miguel"
+      - family-names: "Stępniewski"
+        given-names: "Tomasz Maciej"
+      - family-names: "Ledesma-Martin"
+        given-names: "Vicente"
+      - family-names: "Heydenreich"
+        given-names: "Franziska M."
+      - family-names: "Flock"
+        given-names: "Tilman"
+      - family-names: "Plouffe"
+        given-names: "Bianca"
+      - family-names: "Le Gouill"
+        given-names: "Christian"
+      - family-names: "Duchaine"
+        given-names: "Jean"
+      - family-names: "Sykes"
+        given-names: "David A."
+      - family-names: "Nicholson"
+        given-names: "Colin"
+      - family-names: "Koers"
+        given-names: "Eline J."
+      - family-names: "Guba"
+        given-names: "Wolfgang"
+      - family-names: "Rufer"
+        given-names: "Arne C."
+      - family-names: "Grether"
+        given-names: "Uwe"
+      - family-names: "Bouvier"
+        given-names: "Michel"
+      - family-names: "Veprintsev"
+        given-names: "Dmitry B."
+      - family-names: "Selent"
+        given-names: "Jana"
   - type: article
     title: "Multiple mechanisms of self-association of chemokine receptors CXCR4 and CCR5 demonstrated by deep mutagenesis"
     doi: "10.1016/j.jbc.2023.105229"

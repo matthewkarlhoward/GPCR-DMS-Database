@@ -1,6 +1,6 @@
 # GPR68_Howard2025
 
-**M. Howard 2025**, *Cell* 2025. DOI: [10.1016/j.cell.2024.11.036](https://doi.org/10.1016/j.cell.2024.11.036)
+**M. Howard 2025 (Manglik)**, *Cell* 2025. DOI: [10.1016/j.cell.2024.11.036](https://doi.org/10.1016/j.cell.2024.11.036)
 GPR68 (GPR68, UniProt Q15743). DMS. MaveDB: yes (urn:mavedb:00001207).
 
 - Cells: HEK293T landing-pad line, one variant per cell (pooled)

@@ -1,0 +1,22 @@
+CNR2_MoralesPastor2025
+Data license: CC BY-NC-ND 4.0. Non-commercial use only; no derivatives of the article. The file in source/ is unmodified; the tables/ version adds columns and is therefore adapted — a commercial user, or anyone needing a derivative, should obtain permission from the authors / Springer Nature or use source/ directly
+License text: https://creativecommons.org/licenses/by-nc-nd/4.0/
+Redistribution status: permissive-with-conditions - An open licence permits redistribution, with conditions a reuser must respect (see below).
+
+Source of the data: Nat Commun Supplementary Data 1 (41467_2025_60003_MOESM3_ESM.xlsx)
+  https://doi.org/10.1038/s41467-025-60003-0
+
+Article license: CC BY-NC-ND 4.0 (Nature Communications)
+  https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Cite as:
+  Morales-Pastor A, Miljuš T, Dieguez-Eceolaza M, Stępniewski TM, Ledesma-Martin V, Heydenreich FM, Flock T, Plouffe B, Le Gouill C, Duchaine J, Sykes DA, Nicholson C, Koers EJ, Guba W, Rufer AC, Grether U, Bouvier M, Veprintsev DB, Selent J. Multiple intramolecular triggers converge to preferential G protein coupling in the CB2R. Nature Communications. 2025;16:5265. doi:10.1038/s41467-025-60003-0
+  https://doi.org/10.1038/s41467-025-60003-0
+
+Generic residue numbers in tables/ are from GPCRdb (https://gpcrdb.org), CC BY 4.0.
+  We acknowledge the use of the GPCRdb database (https://www.gpcrdb.org).
+
+The files in source/ are the authors' originals, unmodified. The files in tables/ are
+converted and augmented versions of them; see ../NOTICE.md for exactly what changed.
+This folder is a redistribution. Nothing here is a claim of ownership over the data,
+and nothing here alters or extends the licenses above.

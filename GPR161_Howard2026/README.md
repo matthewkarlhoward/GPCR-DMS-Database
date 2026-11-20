@@ -1,6 +1,6 @@
 # GPR161_Howard2026
 
-**M. Howard 2026**, *bioRxiv* 2026. DOI: [10.64898/2026.10.30.762644](https://doi.org/10.64898/2026.10.30.762644)
+**M. Howard 2026 (Coyote-Maestas)**, *bioRxiv* 2026. DOI: [10.64898/2026.10.30.762644](https://doi.org/10.64898/2026.10.30.762644)
 GPR161 (GPR161, UniProt Q8N6U8). DMS. MaveDB: yes (urn:mavedb:00001323).
 
 - Cells: HEK293T landing-pad line, one variant per cell (pooled)

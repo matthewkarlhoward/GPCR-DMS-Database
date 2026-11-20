@@ -1,6 +1,6 @@
 # ADRB2_Heydenreich2023
 
-**Heydenreich 2023 (Veprintsev)**, *Science* 2023. DOI: [10.1126/science.adh1859](https://doi.org/10.1126/science.adh1859)
+**Heydenreich 2023 (Babu)**, *Science* 2023. DOI: [10.1126/science.adh1859](https://doi.org/10.1126/science.adh1859)
 β2AR (ADRB2, UniProt P07550). alanine scan. MaveDB: no.
 
 - Cells: see paper (individually transfected mutants)

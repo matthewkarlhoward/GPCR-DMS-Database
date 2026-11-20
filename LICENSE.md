@@ -20,6 +20,7 @@ license field for each article. If a license has changed since, the source is au
 | `AVPR2_Mighell2025` | V2R | CC BY 4.0 | [link](https://creativecommons.org/licenses/by/4.0/) | `clear` | CC BY 4.0 |
 | `CCR5_Gill2023` | CCR5 | NCBI GEO: no restrictions on use or redistribution of the data; cite the source | [link](https://www.ncbi.nlm.nih.gov/home/about/policies/) | `clear` | CC BY 4.0 |
 | `CCR5_Heredia2018` | CCR5 | CC0 1.0 (public domain dedication) | [link](https://creativecommons.org/publicdomain/zero/1.0/) | `clear` | Oxford University Press standard publication reuse rights |
+| `CNR2_MoralesPastor2025` | CB2 | CC BY-NC-ND 4.0 | [link](https://creativecommons.org/licenses/by-nc-nd/4.0/) | `permissive-with-conditions` | CC BY-NC-ND 4.0 |
 | `CXCR4_Gill2023` | CXCR4 | NCBI GEO: no restrictions on use or redistribution of the data; cite the source | [link](https://www.ncbi.nlm.nih.gov/home/about/policies/) | `clear` | CC BY 4.0 |
 | `CXCR4_Heredia2018` | CXCR4 | CC0 1.0 (public domain dedication) | [link](https://creativecommons.org/publicdomain/zero/1.0/) | `clear` | Oxford University Press standard publication reuse rights |
 | `GPR161_Howard2026` | GPR161 | CC BY 4.0 (repository LICENSE-DATA); repository code MIT; MaveDB score sets CC0 1.0 | [link](https://creativecommons.org/licenses/by/4.0/) | `clear` | CC BY 4.0 |
@@ -40,13 +41,16 @@ Machine-readable: `licenses.csv`, and the licence columns in `studies.csv`.
 
 ## What the statuses mean
 
-- **`clear`** (19 of 23 folders) — An open licence explicitly permits redistribution of these numbers. CC0, CC BY 4.0, MIT, or NCBI GEO.
+- **`clear`** (19 of 24 folders) — An open licence explicitly permits redistribution of these numbers. CC0, CC BY 4.0, MIT, or NCBI GEO.
   Use them, cite the paper.
-- **`permissive-with-conditions`** (3) — `AGTR1_Boora2026`, `PTGFR_Boora2026`, `RHO_Chen2026`.
+- **`permissive-with-conditions`** (4) — `AGTR1_Boora2026`, `PTGFR_Boora2026`, `CNR2_MoralesPastor2025`, `RHO_Chen2026`.
   Open licenses with restrictions:
   - `RHO_Chen2026` is **CC BY-NC-ND 4.0**: non-commercial use only, and no derivatives. The `tables/`
     files add columns, so they are derivatives — for a strict reading, use `source/`. Commercial use
     needs permission from PNAS.
+  - `CNR2_MoralesPastor2025` is **CC BY-NC-ND 4.0** (Nature Communications): non-commercial use only,
+    and no derivatives. As for `RHO_Chen2026`, the `tables/` file adds columns, so for a strict reading
+    use `source/`. Commercial use needs permission from the authors / Springer Nature.
   - `AGTR1_Boora2026`, `PTGFR_Boora2026` are **CC BY-NC 4.0**: non-commercial use only; adaptation is
     allowed with credit.
 - **`cite-only`** (1) — `AGTR1_Cao2023`.

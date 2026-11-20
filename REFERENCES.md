@@ -61,6 +61,13 @@ Data license: NCBI GEO: no restrictions on use or redistribution of the data; ci
 Data: MaveDB score sets urn:mavedb:00000047-a/-b/-c — https://www.mavedb.org/experiment-sets/urn:mavedb:00000047  
 Data license: CC0 1.0 (public domain dedication)
 
+**`CNR2_MoralesPastor2025`**
+
+> Morales-Pastor A, Miljuš T, Dieguez-Eceolaza M, Stępniewski TM, Ledesma-Martin V, Heydenreich FM, Flock T, Plouffe B, Le Gouill C, Duchaine J, Sykes DA, Nicholson C, Koers EJ, Guba W, Rufer AC, Grether U, Bouvier M, Veprintsev DB, Selent J. Multiple intramolecular triggers converge to preferential G protein coupling in the CB2R. Nature Communications. 2025;16:5265. doi:10.1038/s41467-025-60003-0
+
+Data: Nat Commun Supplementary Data 1 (41467_2025_60003_MOESM3_ESM.xlsx) — https://doi.org/10.1038/s41467-025-60003-0  
+Data license: CC BY-NC-ND 4.0. Non-commercial use only; no derivatives of the article. The file in source/ is unmodified; the tables/ version adds columns and is therefore adapted — a commercial user, or anyone needing a derivative, should obtain permission from the authors / Springer Nature or use source/ directly
+
 **`GPR161_Howard2026`**
 
 > Howard MK, Whiteman S, Grimes PR, Macdonald C, Manglik A, Coyote-Maestas W. Mapping the sequence determinants of constitutive activity in GPCRs. bioRxiv. 2026. doi:10.64898/2026.10.30.762644

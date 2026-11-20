@@ -6,11 +6,11 @@ An atlas of all existing GPCR mutational scanning data (that I can find). I will
 
 Always cite the original paper for each dataset you use. If you find this resource useful, please acknowledge it. This repo is archived on Zenodo and each GitHub release of this repository gets its own DOI. To cite the database, use [10.5281/zenodo.24355445](https://doi.org/10.5281/zenodo.24355445), which always resolves to the latest version.
 
-The raw per-variant data from 20 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 13 receptors, in 23 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors.
+The raw per-variant data from 21 published GPCR studies (deep mutational scans, alanine scans and variant panels) covering 14 receptors, in 24 datasets with one folder per receptor per study (Heredia 2018, Gill 2023 and Boora 2026 each cover two receptors). Each dataset is aligned to GPCRdb residue numbering so positions can be matched between receptors.
 
 ![GPCR variant measurements per study, cumulative over time, and receptor scans per year](figures/gpcr_dms_overview.png)
 
-**Published GPCR variant measurements: about 914k in total, of which 510k (56%) are in MaveDB.** Left: variant × condition measurements per study (one variant scored under one condition, e.g. one ligand or dose). Top right: cumulative measurements by year published. Bottom right: receptor scans per year. Color shows the scan type; solid = in MaveDB, hatched = not in MaveDB. \* Count taken from the paper text: these studies released no per-variant score file, so they are not in this database (for Penn 2020, the released per-variant values are McKee 2021 Table S1). Counts: [`figures/gpcr_dms_measurements.csv`](figures/gpcr_dms_measurements.csv); script: [`code/plot_overview.py`](code/plot_overview.py); also as [SVG](figures/gpcr_dms_overview.svg) and [PDF](figures/gpcr_dms_overview.pdf).
+**Published GPCR variant measurements: about 915k in total, of which 510k (56%) are in MaveDB.** Left: variant × condition measurements per study (one variant scored under one condition, e.g. one ligand or dose). Top right: cumulative measurements by year published. Bottom right: receptor scans per year. Color shows the scan type; solid = in MaveDB, hatched = not in MaveDB. \* Count taken from the paper text: these studies released no per-variant score file, so they are not in this database (for Penn 2020, the released per-variant values are McKee 2021 Table S1). Counts: [`figures/gpcr_dms_measurements.csv`](figures/gpcr_dms_measurements.csv); script: [`code/plot_overview.py`](code/plot_overview.py); also as [SVG](figures/gpcr_dms_overview.svg) and [PDF](figures/gpcr_dms_overview.pdf).
 
 ## In each study folder
 - `source/`: the original files exactly as published (GitHub repos pinned to a commit; MaveDB, Zenodo, GEO, journal and bioRxiv supplements).
@@ -23,23 +23,24 @@ The raw per-variant data from 20 published GPCR studies (deep mutational scans, 
 ## Studies
 | folder | receptor | paper | scan | tables | source files |
 |---|---|---|---|---|---|
-| `ADRB2_Heydenreich2023/` | β2AR | Heydenreich 2023 (Veprintsev), *Science* 2023 | alanine scan | 1 | 1 |
+| `ADRB2_Heydenreich2023/` | β2AR | Heydenreich 2023 (Babu), *Science* 2023 | alanine scan | 1 | 1 |
 | `ADRB2_Jones2020/` | β2AR | Jones 2020 (Kosuri), *eLife* 2020 | DMS | 4 | 5 |
 | `ADRB2_Mighell2026/` | β2AR | Mighell 2026 GPCR-MAPS (Lehner), *Nat Struct Mol Biol* 2026 | DMS | 1 | 1 |
-| `AGTR1_Boora2026/` | AT1R | Boora 2026 (Heydenreich / Vaidehi), *bioRxiv* 2026 | alanine scan | 2 | 2 |
-| `AGTR1_Cao2023/` | AT1R | Cao 2023 (Heydenreich), *Sci Signal* 2023 | alanine scan | 11 | 5 |
+| `AGTR1_Boora2026/` | AT1R | Boora 2026 (Laporte), *bioRxiv* 2026 | alanine scan | 2 | 2 |
+| `AGTR1_Cao2023/` | AT1R | Cao 2023 (Laporte), *Sci Signal* 2023 | alanine scan | 11 | 5 |
 | `AVPR2_Mighell2025/` | V2R | Mighell 2025 (Lehner), *Nat Struct Mol Biol* 2025 | DMS | 1 | 1 |
 | `CCR5_Gill2023/` | CCR5 | Gill 2023 (Procko), *J Biol Chem* 2023 | DMS | 1 | 2 |
 | `CCR5_Heredia2018/` | CCR5 | Heredia 2018 (Procko), *J Immunol* 2018 | DMS | 3 | 3 |
+| `CNR2_MoralesPastor2025/` | CB2 | Morales-Pastor 2025 (Selent), *Nat Commun* 2025 | alanine scan | 1 | 1 |
 | `CXCR4_Gill2023/` | CXCR4 | Gill 2023 (Procko), *J Biol Chem* 2023 | DMS | 1 | 2 |
 | `CXCR4_Heredia2018/` | CXCR4 | Heredia 2018 (Procko), *J Immunol* 2018 | DMS | 3 | 3 |
-| `GPR161_Howard2026/` | GPR161 | M. Howard 2026, *bioRxiv* 2026 | DMS | 4 | 6 |
-| `GPR68_Howard2025/` | GPR68 | M. Howard 2025, *Cell* 2025 | DMS | 6 | 6 |
-| `MC4R_Howard2025/` | MC4R | C. Howard 2025 (Octant), *eLife* 2025 | DMS | 14 | 17 |
-| `OPRM1_Howard2026/` | µOR | M. Howard 2026, *bioRxiv* 2026 | DMS | 14 | 15 |
-| `P2RY8_LaFlam2025/` | P2Y8 | LaFlam 2025, *Cell Genom* 2025 | DMS | 6 | 2 |
-| `PTGFR_Boora2026/` | FP | Boora 2026 (Heydenreich / Vaidehi), *bioRxiv* 2026 | alanine scan | 2 | 2 |
-| `RHO_Chen2026/` | Rho | Chen 2026, *PNAS* 2026 | DMS | 2 | 2 |
+| `GPR161_Howard2026/` | GPR161 | M. Howard 2026 (Coyote-Maestas), *bioRxiv* 2026 | DMS | 4 | 6 |
+| `GPR68_Howard2025/` | GPR68 | M. Howard 2025 (Manglik), *Cell* 2025 | DMS | 6 | 6 |
+| `MC4R_Howard2025/` | MC4R | C. Howard 2025 (Lubock), *eLife* 2025 | DMS | 14 | 17 |
+| `OPRM1_Howard2026/` | µOR | M. Howard 2026 (Coyote-Maestas), *bioRxiv* 2026 | DMS | 14 | 15 |
+| `P2RY8_LaFlam2025/` | P2Y8 | LaFlam 2025 (Ye), *Cell Genom* 2025 | DMS | 6 | 2 |
+| `PTGFR_Boora2026/` | FP | Boora 2026 (Laporte), *bioRxiv* 2026 | alanine scan | 2 | 2 |
+| `RHO_Chen2026/` | Rho | Chen 2026 (Chang), *PNAS* 2026 | DMS | 2 | 2 |
 | `RHO_Manian2025/` | Rho | Manian 2026 (Comander), *Sci Adv* 2026 | DMS | 2 | 2 |
 | `RHO_McKee2021/` | Rho | McKee 2021 (Schlebach), *J Biol Chem* 2021 | DMS (TM2 + TM7) | 1 | 1 |
 | `RHO_Penn2020/` | Rho | Penn 2020 (Schlebach), *Sci Adv* 2020 | DMS (TM2 + TM7) | 1 | 2 |
@@ -48,7 +49,7 @@ The raw per-variant data from 20 published GPCR studies (deep mutational scans, 
 | `TAS1R2_Park2019/` | T1R2 | Park 2019 (Procko), *J Biol Chem* 2019 | DMS | 1 | 1 |
 
 ## GPCRdb numbering
-`gpcrdb_residue_numbering.csv` is GPCRdb's residue table for the 13 receptors, pulled from gpcrdb.org on 2026-11-18. It lists, per residue:
+`gpcrdb_residue_numbering.csv` is GPCRdb's residue table for the 14 receptors, pulled from gpcrdb.org on 2026-11-18 (CB2 added 2026-11-19). It lists, per residue:
 - `display_generic_number`
 - the BW, Wootten and Pin schemes
 - the segment
@@ -63,7 +64,7 @@ The study WT residues agree with GPCRdb at every position except:
 ## Notes
 - **Penn 2020 Rho** released only read counts. Its per-variant ±retinal ratio is in McKee 2021 Table S1, included in both Rho folders.
 - **The Heydenreich β2AR values** come from the GPCR-MAPS Zenodo file, which mirrors Table S1.
-- **Excel tables with stacked headers** (Cao, Boora, Procko-lab GEO files, P2Y8) have those headers joined with ` | ` so no label is lost.
+- **Excel tables with stacked headers** (Cao, Boora, Morales-Pastor, Procko-lab GEO files, P2Y8) have those headers joined with ` | ` so no label is lost.
 - **Not included (no per-variant numbers released):**
   - Tate-lab thermostability alanine scans (β1AR, A2AR, NTS1)
   - Okuta 2016 ETB
@@ -74,7 +75,7 @@ The study WT residues agree with GPCRdb at every position except:
 Enclosed datasets have slightly different licensing, so make sure to check that. There is no
 single license over the collection. Cite the paper for whichever data you use.
 
-- `LICENSE.md` — the per-study license table, what each status means, and the conditions on the three
+- `LICENSE.md` — the per-study license table, what each status means, and the conditions on the four
   non-commercial datasets.
 - `REFERENCES.md` — the full citation for every paper, plus GPCRdb, MaveDB, the Zenodo deposits and the
   GEO accessions.
@@ -83,8 +84,8 @@ single license over the collection. Cite the paper for whichever data you use.
 - `<study>/LICENSE.txt` and the "Citation & license" section of each `<study>/README.md` — that study's
   citation, article license, data source and data license, restated in the folder itself.
 
-Of the 23 folders: 19 carry a license that plainly permits redistribution (CC0, CC BY 4.0, MIT, or
-NCBI GEO). Three are non-commercial — `RHO_Chen2026` (CC BY-NC-ND 4.0) and `AGTR1_Boora2026` /
+Of the 24 folders: 19 carry a license that plainly permits redistribution (CC0, CC BY 4.0, MIT, or
+NCBI GEO). Four are non-commercial — `RHO_Chen2026` and `CNR2_MoralesPastor2025` (CC BY-NC-ND 4.0) and `AGTR1_Boora2026` /
 `PTGFR_Boora2026` (CC BY-NC 4.0). One, `AGTR1_Cao2023`, is published supplementary data from a
 subscription article with no stated reuse license, included with full citation.
 

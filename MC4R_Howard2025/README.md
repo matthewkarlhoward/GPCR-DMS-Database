@@ -1,6 +1,6 @@
 # MC4R_Howard2025
 
-**C. Howard 2025 (Octant)**, *eLife* 2025. DOI: [10.7554/eLife.104725](https://doi.org/10.7554/eLife.104725)
+**C. Howard 2025 (Lubock)**, *eLife* 2025. DOI: [10.7554/eLife.104725](https://doi.org/10.7554/eLife.104725)
 MC4R (MC4R, UniProt P32245). DMS. MaveDB: no.
 
 - Cells: HEK293-derived reporter cells (Octant platform), barcoded variants (pooled)

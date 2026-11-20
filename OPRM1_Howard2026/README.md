@@ -1,6 +1,6 @@
 # OPRM1_Howard2026
 
-**M. Howard 2026**, *bioRxiv* 2026. DOI: [10.64898/2026.10.12.758633](https://doi.org/10.64898/2026.10.12.758633)
+**M. Howard 2026 (Coyote-Maestas)**, *bioRxiv* 2026. DOI: [10.64898/2026.10.12.758633](https://doi.org/10.64898/2026.10.12.758633)
 µOR (OPRM1, UniProt P35372). DMS. MaveDB: yes (urn:mavedb:00001326).
 
 - Cells: HEK293T landing-pad line, one variant per cell (pooled)

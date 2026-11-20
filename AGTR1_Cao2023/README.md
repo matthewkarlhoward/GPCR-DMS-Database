@@ -1,6 +1,6 @@
 # AGTR1_Cao2023
 
-**Cao 2023 (Heydenreich)**, *Sci Signal* 2023. DOI: [10.1126/scisignal.adf2173](https://doi.org/10.1126/scisignal.adf2173)
+**Cao 2023 (Laporte)**, *Sci Signal* 2023. DOI: [10.1126/scisignal.adf2173](https://doi.org/10.1126/scisignal.adf2173)
 AT1R (AGTR1, UniProt P30556). alanine scan. MaveDB: no.
 
 - Cells: see paper (individually transfected mutants)

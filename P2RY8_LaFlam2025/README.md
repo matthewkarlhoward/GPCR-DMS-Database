@@ -1,6 +1,6 @@
 # P2RY8_LaFlam2025
 
-**LaFlam 2025**, *Cell Genom* 2025. DOI: [10.1016/j.xgen.2025.100981](https://doi.org/10.1016/j.xgen.2025.100981)
+**LaFlam 2025 (Ye)**, *Cell Genom* 2025. DOI: [10.1016/j.xgen.2025.100981](https://doi.org/10.1016/j.xgen.2025.100981)
 P2Y8 (P2RY8, UniProt Q86VZ1). DMS. MaveDB: no.
 
 - Cells: see paper

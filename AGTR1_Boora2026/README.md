@@ -1,6 +1,6 @@
 # AGTR1_Boora2026
 
-**Boora 2026 (Heydenreich / Vaidehi)**, *bioRxiv* 2026. DOI: [10.64898/2026.08.28.747882](https://doi.org/10.64898/2026.08.28.747882)
+**Boora 2026 (Laporte)**, *bioRxiv* 2026. DOI: [10.64898/2026.08.28.747882](https://doi.org/10.64898/2026.08.28.747882)
 AT1R (AGTR1, UniProt P30556). alanine scan. MaveDB: no.
 
 - Cells: see paper (individually transfected mutants; validation in Gq/11 or G12/13 KO cells)

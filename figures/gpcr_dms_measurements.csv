@@ -19,6 +19,7 @@ GPR68  M. Howard 2025,GPR68_Howard2025,2025,dms,True,1,27774,False,
 P2Y8  LaFlam 2025,P2RY8_LaFlam2025,2025,dms,False,1,21135,False,
 MC4R  C. Howard 2025,MC4R_Howard2025,2025,dms,False,1,112761,False,
 V2R  Mighell 2025,AVPR2_Mighell2025,2025,dms,False,1,29288,False,
+CB2  Morales-Pastor 2025,CNR2_MoralesPastor2025,2025,ala,False,1,1077,False,"variant x condition = surface expression, Gαi2 and β-arrestin1 (HU-210) per mutant, from Supplementary Data 1"
 β2AR  Mighell 2026,ADRB2_Mighell2026,2026,dms,False,1,134535,False,
 Rho  Manian 2026,RHO_Manian2025,2026,dms,True,1,14205,False,
 Rho  Chen 2026,RHO_Chen2026,2026,dms,False,1,6095,False,

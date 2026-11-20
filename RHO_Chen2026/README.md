@@ -1,6 +1,6 @@
 # RHO_Chen2026
 
-**Chen 2026**, *PNAS* 2026. DOI: [10.1073/pnas.2624087123](https://doi.org/10.1073/pnas.2624087123)
+**Chen 2026 (Chang)**, *PNAS* 2026. DOI: [10.1073/pnas.2624087123](https://doi.org/10.1073/pnas.2624087123)
 Rho (RHO, UniProt P08100). DMS. MaveDB: no.
 
 - Cells: see paper (cell-based multiphenotype assay)
